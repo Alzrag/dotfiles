@@ -1,22 +1,29 @@
-# Ignore everything
-*
+# Ignore everything by default
+/*
 
-# Allow the .gitignore itself
-!.gitignore
-
-# Opt-in to specific config folders
-!hypr/
+# Except these folders
 !fish/
-!nvim/
-!thunar/
+!hypr/
+!hyprpaper/
 !kitty/
-!rnote/
+!nvim/
+!wofi/
+!thunar/
+!systemd/
 !waybar/
-!swaylock/
-!mako/
+!yay/
 
-# Ignore heavy/junk subfolders inside allowed apps
-# (Example: Neovim undo files or swap files)
-**/undo/
-**/swp/
-**/.DS_Store
+# Make sure we don't ignore the contents of these folders
+!fish/**
+!hypr/**
+!hyprpaper/**
+!kitty/**
+!nvim/**
+!wofi/**
+!thunar/**
+!systemd/**
+!waybar/**
+!yay/**
+
+# Keep the ignore file itself
+!.gitignore

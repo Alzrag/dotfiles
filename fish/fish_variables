@@ -1,0 +1,7 @@
+# This file contains fish universal variable definitions.
+# VERSION: 3.0
+SETUVAR --export OLLAMA_MODELS:/mnt/homework/ollama_models/
+SETUVAR --export --path PATH:/home/alzrag/\x2epyenv/bin\x1e/home/alzrag/\x2elocal/bin\x1e/home/alzrag/bin\x1e/home/alzrag/\x2elocal/share/nvim/mason/bin\x1e/home/alzrag/\x2epyenv/shims\x1e/usr/local/sbin\x1e/usr/local/bin\x1e/usr/bin\x1e/opt/cuda/bin\x1e/var/lib/flatpak/exports/bin\x1e/usr/lib/jvm/default/bin\x1e/usr/bin/site_perl\x1e/usr/bin/vendor_perl\x1e/usr/bin/core_perl
+SETUVAR --export PYENV_ROOT:/home/alzrag/\x2epyenv
+SETUVAR __fish_initialized:4300
+SETUVAR --export fish_user_paths:/home/alzrag/\x2elocal/bin\x1e/home/alzrag/bin

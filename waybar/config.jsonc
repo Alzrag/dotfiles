@@ -1,0 +1,64 @@
+{
+  "layer": "top",
+  "position": "top",
+
+  "modules-left": [
+    "custom/workspace-group"
+  ],
+  "modules-center": [
+    "custom/power"
+  ],
+  "modules-right": [
+    "custom/power_draw",
+    "custom/audio",
+    "backlight",
+    "network",
+    "clock"
+  ],
+
+  "custom/workspace-group": {
+    "format": "{}",
+    "exec": "~/scripts/workspace-group.sh",
+    "interval": 1,
+    "markup": false
+  },
+
+  "custom/hyprland-workspaces": {
+    "exec": "hyprctl workspaces -j | jq -r '.[] | \"[\" + (if .focused then \"*\" else \" \" end) + (.id|tostring) + \"]\"' | tr -d '\\n'",
+    "interval": 2,
+    "return-type": "text"
+  },
+
+  "custom/power": {
+    "format": "⚡ {}W",
+    "exec": "nvidia-smi --query-gpu=power.draw --format=csv,noheader,nounits 2>/dev/null || echo 'OFFLINE'",
+    "interval": 5
+  },
+
+  "custom/audio": {
+    "exec": "~/.config/waybar/scripts/audio.sh",
+    "return-type": "json",
+    "interval": 1,
+    "on-scroll-up": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+ && pkill -RTMIN+8 waybar",
+    "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%- && pkill -RTMIN+8 waybar",
+    "on-click": "~/.config/waybar/scripts/audio_menu.py",
+    "signal": 8
+  },
+
+  "backlight": {
+    "format": "󰃟 {percent}%",
+    "on-click": "brightnessctl s +10%"
+  },
+
+  "network-custom": {
+    "format": "{output}",
+    "exec": "~/.config/waybar/network.sh",
+    "interval": 5,
+    "on-click": "nm-connection-editor"
+  },
+
+  "clock": {
+    "format": " {:%I:%M %p}",
+    "tooltip-format": "{:%A, %B %d, %Y}"
+  }
+}

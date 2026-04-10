@@ -1,0 +1,28 @@
+* {
+    /* Rounded edges */
+    border-radius: 12px;
+
+    /* Semi-transparent background */
+    background-color: rgba(0, 0, 0, 0.6);
+
+    /* Neon green text */
+    color: #39FF14;
+
+    /* Font settings */
+    font-family: "Fira Code", monospace;
+    font-size: 16px;
+
+    /* Icon size */
+    icon-size: 32px;
+
+    /* Remove borders if desired */
+    border: none;
+}
+
+/* Highlighted item */
+window:selected {
+    background-color: rgba(57, 255, 20, 0.2); /* Neon green glow */
+    color: #FFFFFF; /* Optional contrast text */
+    box-shadow: 0 0 10px #39FF14; /* Neon glow effect */
+}
+

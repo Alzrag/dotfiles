@@ -1,0 +1,7 @@
+[Unit]
+Description=Gammastep colour temperature adjustment
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/gammastep -l 39.75:-105.22 -t 6500:2500 -b 1.0:0.75
+Restart=on-failure

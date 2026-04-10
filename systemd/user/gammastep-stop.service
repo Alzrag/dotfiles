@@ -1,0 +1,6 @@
+[Unit]
+Description=Stop gammastep colour adjustment
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/systemctl --user stop gammastep.service

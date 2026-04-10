@@ -1,0 +1,112 @@
+/* Base styles */
+* {
+  font-family: "FiraCode Nerd Font", "Orbitron", sans-serif;
+  font-size: 14px;
+  /* No default text color here, set per module */
+  border-radius: 10px;
+  padding: 2px 10px;
+}
+
+window#waybar {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-bottom: 2px solid #39ff14;
+  box-shadow: 0 0 10px #39ff14;
+}
+
+/* Workspace group - neon blue border and glow, blue text without glow */
+#custom-workspace-group {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0 10px;
+  border-radius: 6px;
+  border: 2px solid #00bfff; /* neon blue */
+  box-shadow: 0 0 8px #00bfff;
+  font-family: Orbitron, sans-serif;
+  font-size: 14px;
+  color: #00bfff; /* neon blue text */
+  text-shadow: none; /* no glow */
+}
+
+/* Power draw - yellow border and glow, yellow text with glow */
+#custom-power_draw {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid #ffff00; /* yellow */
+  box-shadow: 0 0 8px #ffff00;
+  color: #ffff00;
+  text-shadow: 0 0 8px #ffff00; /* glowing text */
+  margin: 0 6px;
+}
+
+/* PulseAudio (volume) - orange border and glow, orange text no glow */
+#pulseaudio {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid #ffa500; /* orange */
+  box-shadow: 0 0 8px #ffa500;
+  color: #ffa500; /* orange text */
+  text-shadow: none;
+  margin: 0 6px;
+}
+
+/* Backlight (brightness) - white border and glow, white text no glow */
+#backlight {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid #ffffff; /* white */
+  box-shadow: 0 0 8px #ffffff;
+  color: #ffffff; /* white text */
+  text-shadow: none;
+  margin: 0 6px;
+}
+
+/* Network - red border and glow, red text no glow */
+#network {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid #ff0000; /* red */
+  box-shadow: 0 0 8px #ff0000;
+  color: #ff0000; /* red text */
+  text-shadow: none;
+  margin: 0 6px;
+}
+
+/* Clock - green border and glow, green text no glow */
+#clock {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid #00ff00; /* green */
+  box-shadow: 0 0 8px #00ff00;
+  color: #00ff00; /* green text */
+  text-shadow: none;
+  margin: 0 6px;
+}
+
+#custom-audio {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid currentColor;
+  box-shadow: 0 0 10px currentColor;
+  font-family: "FiraCode Nerd Font", monospace;
+  letter-spacing: 2px;
+  margin: 0 6px;
+}
+
+/* Green */
+#custom-audio.vol-1 {
+  color: #00ff88;
+}
+
+/* Blue */
+#custom-audio.vol-2 {
+  color: #00ccff;
+}
+
+/* Yellow */
+#custom-audio.vol-3 {
+  color: #ffee00;
+}
+
+/* Orange */
+#custom-audio.vol-4 {
+  color: #ff9900;
+}
+
+/* Red */
+#custom-audio.vol-5 {
+  color: #ff3333;
+}
+

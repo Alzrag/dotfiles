@@ -1,0 +1,4 @@
+[wofi]
+show-icons = true
+theme = /home/alzrag/.config/wofi/themes/neon.css
+

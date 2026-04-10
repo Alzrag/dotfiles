@@ -1,0 +1,12 @@
+# ~/.config/systemd/user/force-airpods-a2dp.service
+[Unit]
+Description=Force AirPods to A2DP
+After=pipewire.service
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/pactl set-card-profile bluez_card.60_83_73_DD_FE_23 a2dp-sink
+
+[Install]
+WantedBy=default.target
+
