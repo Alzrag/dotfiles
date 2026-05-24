@@ -18,6 +18,10 @@ require("lazy").setup({
   spec = {
     -- add LazyVim and import its plugins
     { "LazyVim/LazyVim", import = "lazyvim.plugins" },
+    { import = "lazyvim.plugins.extras.lang.rust" }, -- Auto-installs rust-analyzer & codelldb (debugger)
+    { import = "lazyvim.plugins.extras.lang.clangd" }, -- Auto-installs clangd (C)
+    { import = "lazyvim.plugins.extras.lang.python" }, -- Auto-installs pyright/basedpyright & ruff
+    { import = "lazyvim.plugins.extras.lang.java" }, -- Auto-installs jdtls (Java / Minecraft modding)
     -- import/override with your plugins
     { import = "plugins" },
   },
