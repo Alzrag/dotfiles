@@ -110,3 +110,53 @@ window#waybar {
   color: #ff3333;
 }
 
+/* WAYMIN_STYLES_START */
+#custom-waymin-discord.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-discord.minimized {
+    background-image: url("file:///usr/share/icons/hicolor/256x256/apps/discord.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-width: 24px;
+    min-height: 24px;
+    padding: 0;
+}
+#custom-waymin-heroic.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-heroic.minimized {
+    background-image: url("file:///usr/share/icons/hicolor/512x512/apps/heroic.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-width: 24px;
+    min-height: 24px;
+    padding: 0;
+}
+#custom-waymin-steam.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-steam.minimized {
+    background-image: url("file:///usr/share/icons/hicolor/256x256/apps/steam.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    min-width: 24px;
+    min-height: 24px;
+    padding: 0;
+}
+    /* WAYMIN_STYLES_END */

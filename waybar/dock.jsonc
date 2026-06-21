@@ -1,0 +1,28 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 32, // Matches your primary bar's size
+    "spacing": 4,
+
+    // Add your normal left/center modules
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["hyprland/window"],
+    
+    // Append the custom/dock-clients to the absolute end of the right side module array
+    "modules-right": [
+        "pulseaudio", 
+        "network", 
+        "custom/power_draw", 
+        "clock", 
+        "custom/dock-clients" // Placed here, it naturally sits on the far right edge
+    ],
+
+    // Inject the script block definition right here
+    "custom/dock-clients": {
+        "exec": "$HOME/.config/hypr/scripts/get_dock_clients.sh",
+        "interval": 1,
+        "return-type": "json",
+        "format": "{}",
+        "on-click": "$HOME/.config/hypr/scripts/undock_last.sh"
+    }
+}

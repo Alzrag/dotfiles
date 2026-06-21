@@ -1,0 +1,3274 @@
+/* Base styles */
+* {
+  font-family: "FiraCode Nerd Font", "Orbitron", sans-serif;
+  font-size: 14px;
+  /* No default text color here, set per module */
+  border-radius: 10px;
+  padding: 2px 10px;
+}
+
+window#waybar {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-bottom: 2px solid #39ff14;
+  box-shadow: 0 0 10px #39ff14;
+}
+
+/* Workspace group - neon blue border and glow, blue text without glow */
+#custom-workspace-group {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 0 10px;
+  border-radius: 6px;
+  border: 2px solid #00bfff; /* neon blue */
+  box-shadow: 0 0 8px #00bfff;
+  font-family: Orbitron, sans-serif;
+  font-size: 14px;
+  color: #00bfff; /* neon blue text */
+  text-shadow: none; /* no glow */
+}
+
+/* Power draw - yellow border and glow, yellow text with glow */
+#custom-power_draw {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid #ffff00; /* yellow */
+  box-shadow: 0 0 8px #ffff00;
+  color: #ffff00;
+  text-shadow: 0 0 8px #ffff00; /* glowing text */
+  margin: 0 6px;
+}
+
+/* PulseAudio (volume) - orange border and glow, orange text no glow */
+#pulseaudio {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid #ffa500; /* orange */
+  box-shadow: 0 0 8px #ffa500;
+  color: #ffa500; /* orange text */
+  text-shadow: none;
+  margin: 0 6px;
+}
+
+/* Backlight (brightness) - white border and glow, white text no glow */
+#backlight {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid #ffffff; /* white */
+  box-shadow: 0 0 8px #ffffff;
+  color: #ffffff; /* white text */
+  text-shadow: none;
+  margin: 0 6px;
+}
+
+/* Network - red border and glow, red text no glow */
+#network {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid #ff0000; /* red */
+  box-shadow: 0 0 8px #ff0000;
+  color: #ff0000; /* red text */
+  text-shadow: none;
+  margin: 0 6px;
+}
+
+/* Clock - green border and glow, green text no glow */
+#clock {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid #00ff00; /* green */
+  box-shadow: 0 0 8px #00ff00;
+  color: #00ff00; /* green text */
+  text-shadow: none;
+  margin: 0 6px;
+}
+
+#custom-audio {
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 1px solid currentColor;
+  box-shadow: 0 0 10px currentColor;
+  font-family: "FiraCode Nerd Font", monospace;
+  letter-spacing: 2px;
+  margin: 0 6px;
+}
+
+/* Green */
+#custom-audio.vol-1 {
+  color: #00ff88;
+}
+
+/* Blue */
+#custom-audio.vol-2 {
+  color: #00ccff;
+}
+
+/* Yellow */
+#custom-audio.vol-3 {
+  color: #ffee00;
+}
+
+/* Orange */
+#custom-audio.vol-4 {
+  color: #ff9900;
+}
+
+/* Red */
+#custom-audio.vol-5 {
+  color: #ff3333;
+}
+
+/* Update your styles to debug */
+#custom-waymin-steam, #custom-waymin-heroic, [id^="custom-waymin-"] {
+    border: 1px solid white; /* Adds a border to see the button container */
+}
+
+#custom-waymin-steam.blank, #custom-waymin-heroic.blank, [id^="custom-waymin-"].blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+}
+/* WAYMIN_STYLES_START */
+#custom-waymin---servants-of-harvest-wish.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-3d-aim-trainer.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-add-design-tools-or-devices-2025-21779569356796.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-aimlabs.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-android-studio.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-anki.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-antimatter-dimensions.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-armorpaint.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-assistant.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-audacity.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-avahi-discover.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-barrier.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-bitburner.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-black-myth-wukong.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-blackmagicraw-player.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-blackmagicraw-speedtest.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-blender.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-blockbench.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-blueman-adapters.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-blueman-manager.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-bodyslide.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-breezestyleconfig.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-bssh.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-bvnc.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-chromium.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-cmake-gui.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-cockos-reaper.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-code-oss.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-code-oss-url-handler.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-code-url-handler.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-com-cloudflare-warp.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-com-cloudflare-warptaskbar.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-com-github-tchx84-flatseal.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-com-github-wwmm-easyeffects.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-com-nexusmods-app.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-com-nexusmods-vortex-dev.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-com-obsproject-studio.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-com-opera-opera-desktop.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-com-opera-opera-desktop-2.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-com-raspberrypi-rpi-imager.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-combat-master.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-counter-strike-2.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-cups.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-curseforge.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-davinci-resolve.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-davincicontrolpanelssetup.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-davinciresolve.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-designer.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-discord.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-discord-402572971681644545.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-discord-712264497787568171.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-disfigure.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-documentation-navigator1779569356823.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-dragon-ball-fighterz.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-dragon-ball-gekishin-squadra.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-dragon-ball-sparking-zero.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-drawio.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-electron37.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-firefox.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-fluid1-3.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-fps-chess.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-freecad.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-gammastep.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-gammastep-indicator.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-gcr-prompter.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-gcr-viewer.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-gimp.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-gkbd-keyboard-display.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-gnome-disk-image-mounter.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-gnome-disk-image-writer.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-google-maps-geo-handler.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-gparted.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-gtkwave.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-guilty-gear--strive-.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-halo-infinite.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-halo-the-master-chief-collection.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-helldivers-2.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-heroic.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-htop.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-install4jcqtoec-worldpainter.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-java-java-openjdk.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-java-java17-openjdk.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-java-java21-openjdk.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-jconsole-java-openjdk.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-jconsole-java17-openjdk.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-jconsole-java21-openjdk.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-jshell-java-openjdk.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-jshell-java17-openjdk.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-jshell-java21-openjdk.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kaccess.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kando.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmabout-distro.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmaccess.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmactivities.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmanimations.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmanimationsx11.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmapp-permissions.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmautostart.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmbaloofile.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmbluetooth.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmbolt.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmbreezedecoration.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmcellularnetwork.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmclock.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmcolors.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmcomponentchooser.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmcursortheme.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmdesktoppaths.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmdesktoptheme.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmdisks.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmenergyinfo.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmfeedback.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmfiletypes.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmfirewall.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmfontinst.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmfonts.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmgamecontroller.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmicons.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmkaccounts.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmkded.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmkeyboard.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmkeys.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmkrdpserver.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmkrunnersettings.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmkscreen.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmkwineffects.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmkwineffectsx11.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmkwinscripts.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmkwinscriptsx11.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmkwinvirtualdesktops.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmkwinvirtualdesktopsx11.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmkwindecoration.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmkwindecorationx11.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmkwinoptions.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmkwinoptionsx11.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmkwinrules.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmkwinrulesx11.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmkwintabbox.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmkwintabboxx11.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmkwinxwayland.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmlandingpage.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmlookandfeel.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmmobilehotspot.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmmobilepower.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmmobilewifi.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmmobilewired.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmmouse.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmnetpref.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmnetworkmanagement.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmnightlight.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmnighttime.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmnotifications.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmoxygendecoration.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmplasmakeyboard.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmplasmalogin.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmplasmasearch.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmpowerdevilprofilesconfig.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmprintermanager.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmproxy.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmpulseaudio.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmqtquicksettings.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmrecentfiles.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmregionandlang.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmscreenlocker.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmsddm.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmsmserver.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmsolidactions.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmsoundtheme.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmsplashscreen.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmstyle.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmtablet.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmtouchpad.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmtouchscreen.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmtrash.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmupdates.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmusers.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmvirtualkeyboard.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmwallpaper.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmwebshortcuts.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmworkspace.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kcmspellchecking.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kdesystemsettings.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-khal.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kitty.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kitty-open.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-ktelnetservice6.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kvantummanager.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kwalletmanager5-kwalletd.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-kwincompositing.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-libreoffice-base.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-libreoffice-calc.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-libreoffice-draw.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-libreoffice-impress.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-libreoffice-math.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-libreoffice-startcenter.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-libreoffice-writer.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-libreoffice-xsltfilter.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-linguist.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-linux-desktop-gremlin.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-logisim-evolution.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-lsfg-vk-ui.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-lsp-plugins.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-lstopo.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-lutris.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-manage-licenses-2025-21779569356791.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-marvel-rivals.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-materialx-grapheditor.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-materialx-view.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-mcreator.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-mkchromecast.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-modorganizer2-nxm-handler.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-mpv.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-mw-matlab.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-mw-matlabconnector.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-mw-simulink.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-naruto-to-boruto-shinobi-striker.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-nautilus-autorun-software.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-net-lutris-1b4db7eb-4057-5ddf-91e0-36dec72071f5-10.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-net-lutris-bricklink-studio-9.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-net-lutris-lutris.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-net-lutris-lutris1.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-nm-applet.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-nm-connection-editor.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-nvidia-settings.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-nvim.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-nvrim.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-nwg-displays.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-octopi.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-octopi-cachecleaner.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-octopi-notifier.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-octopi-repoeditor.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-okular.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-okularapplicationcomicbook.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-okularapplicationdjvu.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-okularapplicationdvi.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-okularapplicationepub.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-okularapplicationfax.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-okularapplicationfb.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-okularapplicationghostview.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-okularapplicationkimgio.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-okularapplicationmd.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-okularapplicationmobi.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-okularapplicationpdf.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-okularapplicationpdf-desktop.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-okularapplicationpdf-desktop-2.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-okularapplicationpdf-desktop-3.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-okularapplicationtiff.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-okularapplicationtxt.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-okularapplicationxps.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-openstreetmap-geo-handler.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-opera-gx.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-flameshot-flameshot.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-freecad-freecad.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-freedesktop-impl-portal-desktop-kde.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-freedesktop-xwayland.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-gnome-baobab.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-gnome-diskutility.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-gnome-nautilus.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-gnome-networkdisplays.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-gnome-seahorse-application.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-gnome-zenity.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-gnupg-pinentry-qt.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-gnupg-pinentry-qt5.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-ark.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-baloorunner.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-bluedevilsendfile.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-bluedevilwizard.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-configureprinter.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-discover.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-discover-flatpak.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-discover-notifier.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-discover-snap.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-discover-urlhandler.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-dolphin.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-drkonqi.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-drkonqi-coredump-gui.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-kate.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-kcolorschemeeditor.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-kded6.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-keditfiletype.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-kfontinst.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-kfontview.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-kinfocenter.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-kiod6.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-klipper.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-kmenuedit.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-knetattach.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-knewstuff-dialog6.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-knighttimed.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-konsole.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-krdpserver.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-ksecretd.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-ksshaskpass.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-kwalletmanager.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-kwin-killer.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-kwinx11-killer.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-kwrite.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-okular.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-plasma-fallback-session-save.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-plasma-interactiveconsole.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-plasma-systemmonitor.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-plasma-welcome.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-plasma-browserintegration-host.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-plasma-emojier.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-plasma-keyboard.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-plasma-settings-open.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-plasmashell.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-plasmawindowed.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-polkit-kde-authentication-agent-1.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-printqueue.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-secretprompter.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-spectacle.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kde-vpnimport.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-kiwix-desktop.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-mozilla-thunderbird.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-openusd-usdview.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-prismlauncher-prismlauncher.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-pulseaudio-pavucontrol.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-qelectrotech-qelectrotech.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-org-qutebrowser-qutebrowser.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-outfitstudio.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-overwatch.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-protontricks.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-protontricks-launch.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-prusagcodeviewer.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-prusaslicer.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-qdbusviewer.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-qemu.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-qt6ct.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-qv4l2.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-qvidcap.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-red-dead-redemption-2.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-redshift.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-redshift-gtk.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-remote-viewer.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-risk-of-rain-2.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-satty.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-signon-ui.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-slack.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-spotify-launcher.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-steam.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-system-config-printer.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-systemsettings.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-tabletop-simulator.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-team-fortress-2.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-the-elder-scrolls-iv-oblivion-remastered.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-thunar.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-thunar-bulk-rename.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-thunar-settings.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-thunar-volman-settings.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-timeshift-gtk.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-uninstall-2025-21779569356794.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-uninstall-docnav1779569356826.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-uninstall-xilinx-information-center1779569356767.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-unityhub.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-unreal.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-upgun.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-user-dirs-update-gtk.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-userapp-thunderbird-4lffa3.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-userapp-thunderbird-clija3.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-userapp-thunderbird-y6eda3.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-userapp-thunderbird-ziuea3.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-uuctl.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-uxterm.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-ventoy.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-vim.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-virt-manager.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-vitis-2025-21779569356807.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-vivado-2025-2-tcl-shell1779569356814.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-vivado-2025-21779569356817.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-vlc.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-vncviewer.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-vortex.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-waydroid.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-waydroid-com-android-calculator2.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-waydroid-com-android-contacts.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-waydroid-com-android-deskclock.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-waydroid-com-android-documentsui.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-waydroid-com-android-gallery3d.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-waydroid-com-android-inputmethod-latin.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-waydroid-com-android-settings.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-waydroid-com-android-vending.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-waydroid-com-google-android-apps-messaging.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-waydroid-com-google-android-contacts.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-waydroid-com-qooapp-qoohelper.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-waydroid-org-lineageos-aperture.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-waydroid-org-lineageos-eleven.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-waydroid-org-lineageos-etar.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-waydroid-org-lineageos-jelly.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-waydroid-org-lineageos-recorder.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-waynergy.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-webcamoid.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wheelmap-geo-handler.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-aif.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-aifc.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-asf.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-asx.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-au.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-avi.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-cda.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-chm.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-crt.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-dvr-ms.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-hlp.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-m1v.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-m3u.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-mid.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-mp2.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-mp3.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-msp.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-reg.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-rmi.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-sct.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-vbs.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-wav.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-wax.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-wm.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-wma.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-wmd.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-wms.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-wmv.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-wmz.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-wpl.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-wsc.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-extension-wvx.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-protocol-com-epicgames-launcher.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-protocol-eaconnect-microsoft.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-protocol-ealink.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-protocol-http.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-protocol-https.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-protocol-link2ea.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-protocol-microsoft-edge.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-protocol-mms.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-protocol-mmst.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-protocol-mmsu.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-protocol-msbd.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-protocol-origin.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-protocol-origin2.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-protocol-qrc.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-wine-protocol-uplay.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-winetricks.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-xdg-desktop-portal-gnome.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-xdg-desktop-portal-gtk.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-xfce4-about.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-xgps.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-xgpsspeed.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-xilinx-information-center1779569356787.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-xterm.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+#custom-waymin-zoom.blank {
+    opacity: 0;
+    padding: 0;
+    margin: 0;
+    min-width: 0;
+    min-height: 0;
+}
+    /* WAYMIN_STYLES_END */

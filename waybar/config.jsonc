@@ -3,7 +3,14 @@
   "position": "top",
 
   "modules-left": [
-    "custom/workspace-group"
+    "custom/workspace-group",
+    // WAYMIN_LIST_START
+    "custom/waymin-refresh",
+    "custom/waymin-discord",
+    "custom/waymin-heroic",
+    "custom/waymin-steam",
+    // WAYMIN_LIST_END
+    "custom/window-class"
   ],
   "modules-center": [
     "custom/power"
@@ -35,6 +42,13 @@
     "interval": 5
   },
 
+  "custom/window-class": {
+    "exec": "socat -u UNIX-CONNECT:/tmp/hypr/$(echo $HYPRLAND_INSTANCE_SIGNATURE)/socket2.sock - | stdbuf -oL grep -F 'activewindow,' | stdbuf -oL cut -d, -f3-",
+    "return-type": "json",
+    "format": "{}",
+    "on-update": "hyprctl activewindow -j | jq -r .initialClass > /tmp/waybar_active_class"
+  },
+
   "custom/audio": {
     "exec": "~/.config/waybar/scripts/audio.sh",
     "return-type": "json",
@@ -60,5 +74,31 @@
   "clock": {
     "format": " {:%I:%M %p}",
     "tooltip-format": "{:%A, %B %d, %Y}"
-  }
+  },
+
+  // WAYMIN_DEFS_START
+    "custom/waymin-refresh": {
+        "format": "⟳",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --refresh",
+        "tooltip": "Refresh Taskbar Entries"
+    },
+    "custom/waymin-discord": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status discord",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu discord",
+        "interval": 2
+    },
+    "custom/waymin-heroic": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status heroic",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu heroic",
+        "interval": 2
+    },
+    "custom/waymin-steam": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status steam",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu steam",
+        "interval": 2
+    },
+    // WAYMIN_DEFS_END
 }

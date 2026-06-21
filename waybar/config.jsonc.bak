@@ -1,0 +1,3233 @@
+{
+  "layer": "top",
+  "position": "top",
+
+  "modules-left": [
+    "custom/workspace-group",
+    // WAYMIN_LIST_START
+    "custom/waymin-refresh",
+    "custom/waymin---servants-of-harvest-wish",
+    "custom/waymin-3d-aim-trainer",
+    "custom/waymin-add-design-tools-or-devices-2025-21779569356796",
+    "custom/waymin-aimlabs",
+    "custom/waymin-android-studio",
+    "custom/waymin-anki",
+    "custom/waymin-antimatter-dimensions",
+    "custom/waymin-armorpaint",
+    "custom/waymin-assistant",
+    "custom/waymin-audacity",
+    "custom/waymin-avahi-discover",
+    "custom/waymin-barrier",
+    "custom/waymin-bitburner",
+    "custom/waymin-black-myth-wukong",
+    "custom/waymin-blackmagicraw-player",
+    "custom/waymin-blackmagicraw-speedtest",
+    "custom/waymin-blender",
+    "custom/waymin-blockbench",
+    "custom/waymin-blueman-adapters",
+    "custom/waymin-blueman-manager",
+    "custom/waymin-bodyslide",
+    "custom/waymin-breezestyleconfig",
+    "custom/waymin-bssh",
+    "custom/waymin-bvnc",
+    "custom/waymin-chromium",
+    "custom/waymin-cmake-gui",
+    "custom/waymin-cockos-reaper",
+    "custom/waymin-code-oss",
+    "custom/waymin-code-oss-url-handler",
+    "custom/waymin-code-url-handler",
+    "custom/waymin-com-cloudflare-warp",
+    "custom/waymin-com-cloudflare-warptaskbar",
+    "custom/waymin-com-github-tchx84-flatseal",
+    "custom/waymin-com-github-wwmm-easyeffects",
+    "custom/waymin-com-nexusmods-app",
+    "custom/waymin-com-nexusmods-vortex-dev",
+    "custom/waymin-com-obsproject-studio",
+    "custom/waymin-com-opera-opera-desktop",
+    "custom/waymin-com-opera-opera-desktop-2",
+    "custom/waymin-com-raspberrypi-rpi-imager",
+    "custom/waymin-combat-master",
+    "custom/waymin-counter-strike-2",
+    "custom/waymin-cups",
+    "custom/waymin-curseforge",
+    "custom/waymin-davinci-resolve",
+    "custom/waymin-davincicontrolpanelssetup",
+    "custom/waymin-davinciresolve",
+    "custom/waymin-designer",
+    "custom/waymin-discord",
+    "custom/waymin-discord-402572971681644545",
+    "custom/waymin-discord-712264497787568171",
+    "custom/waymin-disfigure",
+    "custom/waymin-documentation-navigator1779569356823",
+    "custom/waymin-dragon-ball-fighterz",
+    "custom/waymin-dragon-ball-gekishin-squadra",
+    "custom/waymin-dragon-ball-sparking-zero",
+    "custom/waymin-drawio",
+    "custom/waymin-electron37",
+    "custom/waymin-firefox",
+    "custom/waymin-fluid1-3",
+    "custom/waymin-fps-chess",
+    "custom/waymin-freecad",
+    "custom/waymin-gammastep",
+    "custom/waymin-gammastep-indicator",
+    "custom/waymin-gcr-prompter",
+    "custom/waymin-gcr-viewer",
+    "custom/waymin-gimp",
+    "custom/waymin-gkbd-keyboard-display",
+    "custom/waymin-gnome-disk-image-mounter",
+    "custom/waymin-gnome-disk-image-writer",
+    "custom/waymin-google-maps-geo-handler",
+    "custom/waymin-gparted",
+    "custom/waymin-gtkwave",
+    "custom/waymin-guilty-gear--strive-",
+    "custom/waymin-halo-infinite",
+    "custom/waymin-halo-the-master-chief-collection",
+    "custom/waymin-helldivers-2",
+    "custom/waymin-heroic",
+    "custom/waymin-htop",
+    "custom/waymin-install4jcqtoec-worldpainter",
+    "custom/waymin-java-java-openjdk",
+    "custom/waymin-java-java17-openjdk",
+    "custom/waymin-java-java21-openjdk",
+    "custom/waymin-jconsole-java-openjdk",
+    "custom/waymin-jconsole-java17-openjdk",
+    "custom/waymin-jconsole-java21-openjdk",
+    "custom/waymin-jshell-java-openjdk",
+    "custom/waymin-jshell-java17-openjdk",
+    "custom/waymin-jshell-java21-openjdk",
+    "custom/waymin-kaccess",
+    "custom/waymin-kando",
+    "custom/waymin-kcmabout-distro",
+    "custom/waymin-kcmaccess",
+    "custom/waymin-kcmactivities",
+    "custom/waymin-kcmanimations",
+    "custom/waymin-kcmanimationsx11",
+    "custom/waymin-kcmapp-permissions",
+    "custom/waymin-kcmautostart",
+    "custom/waymin-kcmbaloofile",
+    "custom/waymin-kcmbluetooth",
+    "custom/waymin-kcmbolt",
+    "custom/waymin-kcmbreezedecoration",
+    "custom/waymin-kcmcellularnetwork",
+    "custom/waymin-kcmclock",
+    "custom/waymin-kcmcolors",
+    "custom/waymin-kcmcomponentchooser",
+    "custom/waymin-kcmcursortheme",
+    "custom/waymin-kcmdesktoppaths",
+    "custom/waymin-kcmdesktoptheme",
+    "custom/waymin-kcmdisks",
+    "custom/waymin-kcmenergyinfo",
+    "custom/waymin-kcmfeedback",
+    "custom/waymin-kcmfiletypes",
+    "custom/waymin-kcmfirewall",
+    "custom/waymin-kcmfontinst",
+    "custom/waymin-kcmfonts",
+    "custom/waymin-kcmgamecontroller",
+    "custom/waymin-kcmicons",
+    "custom/waymin-kcmkaccounts",
+    "custom/waymin-kcmkded",
+    "custom/waymin-kcmkeyboard",
+    "custom/waymin-kcmkeys",
+    "custom/waymin-kcmkrdpserver",
+    "custom/waymin-kcmkrunnersettings",
+    "custom/waymin-kcmkscreen",
+    "custom/waymin-kcmkwineffects",
+    "custom/waymin-kcmkwineffectsx11",
+    "custom/waymin-kcmkwinscripts",
+    "custom/waymin-kcmkwinscriptsx11",
+    "custom/waymin-kcmkwinvirtualdesktops",
+    "custom/waymin-kcmkwinvirtualdesktopsx11",
+    "custom/waymin-kcmkwindecoration",
+    "custom/waymin-kcmkwindecorationx11",
+    "custom/waymin-kcmkwinoptions",
+    "custom/waymin-kcmkwinoptionsx11",
+    "custom/waymin-kcmkwinrules",
+    "custom/waymin-kcmkwinrulesx11",
+    "custom/waymin-kcmkwintabbox",
+    "custom/waymin-kcmkwintabboxx11",
+    "custom/waymin-kcmkwinxwayland",
+    "custom/waymin-kcmlandingpage",
+    "custom/waymin-kcmlookandfeel",
+    "custom/waymin-kcmmobilehotspot",
+    "custom/waymin-kcmmobilepower",
+    "custom/waymin-kcmmobilewifi",
+    "custom/waymin-kcmmobilewired",
+    "custom/waymin-kcmmouse",
+    "custom/waymin-kcmnetpref",
+    "custom/waymin-kcmnetworkmanagement",
+    "custom/waymin-kcmnightlight",
+    "custom/waymin-kcmnighttime",
+    "custom/waymin-kcmnotifications",
+    "custom/waymin-kcmoxygendecoration",
+    "custom/waymin-kcmplasmakeyboard",
+    "custom/waymin-kcmplasmalogin",
+    "custom/waymin-kcmplasmasearch",
+    "custom/waymin-kcmpowerdevilprofilesconfig",
+    "custom/waymin-kcmprintermanager",
+    "custom/waymin-kcmproxy",
+    "custom/waymin-kcmpulseaudio",
+    "custom/waymin-kcmqtquicksettings",
+    "custom/waymin-kcmrecentfiles",
+    "custom/waymin-kcmregionandlang",
+    "custom/waymin-kcmscreenlocker",
+    "custom/waymin-kcmsddm",
+    "custom/waymin-kcmsmserver",
+    "custom/waymin-kcmsolidactions",
+    "custom/waymin-kcmsoundtheme",
+    "custom/waymin-kcmsplashscreen",
+    "custom/waymin-kcmstyle",
+    "custom/waymin-kcmtablet",
+    "custom/waymin-kcmtouchpad",
+    "custom/waymin-kcmtouchscreen",
+    "custom/waymin-kcmtrash",
+    "custom/waymin-kcmupdates",
+    "custom/waymin-kcmusers",
+    "custom/waymin-kcmvirtualkeyboard",
+    "custom/waymin-kcmwallpaper",
+    "custom/waymin-kcmwebshortcuts",
+    "custom/waymin-kcmworkspace",
+    "custom/waymin-kcmspellchecking",
+    "custom/waymin-kdesystemsettings",
+    "custom/waymin-khal",
+    "custom/waymin-kitty",
+    "custom/waymin-kitty-open",
+    "custom/waymin-ktelnetservice6",
+    "custom/waymin-kvantummanager",
+    "custom/waymin-kwalletmanager5-kwalletd",
+    "custom/waymin-kwincompositing",
+    "custom/waymin-libreoffice-base",
+    "custom/waymin-libreoffice-calc",
+    "custom/waymin-libreoffice-draw",
+    "custom/waymin-libreoffice-impress",
+    "custom/waymin-libreoffice-math",
+    "custom/waymin-libreoffice-startcenter",
+    "custom/waymin-libreoffice-writer",
+    "custom/waymin-libreoffice-xsltfilter",
+    "custom/waymin-linguist",
+    "custom/waymin-linux-desktop-gremlin",
+    "custom/waymin-logisim-evolution",
+    "custom/waymin-lsfg-vk-ui",
+    "custom/waymin-lsp-plugins",
+    "custom/waymin-lstopo",
+    "custom/waymin-lutris",
+    "custom/waymin-manage-licenses-2025-21779569356791",
+    "custom/waymin-marvel-rivals",
+    "custom/waymin-materialx-grapheditor",
+    "custom/waymin-materialx-view",
+    "custom/waymin-mcreator",
+    "custom/waymin-mkchromecast",
+    "custom/waymin-modorganizer2-nxm-handler",
+    "custom/waymin-mpv",
+    "custom/waymin-mw-matlab",
+    "custom/waymin-mw-matlabconnector",
+    "custom/waymin-mw-simulink",
+    "custom/waymin-naruto-to-boruto-shinobi-striker",
+    "custom/waymin-nautilus-autorun-software",
+    "custom/waymin-net-lutris-1b4db7eb-4057-5ddf-91e0-36dec72071f5-10",
+    "custom/waymin-net-lutris-bricklink-studio-9",
+    "custom/waymin-net-lutris-lutris",
+    "custom/waymin-net-lutris-lutris1",
+    "custom/waymin-nm-applet",
+    "custom/waymin-nm-connection-editor",
+    "custom/waymin-nvidia-settings",
+    "custom/waymin-nvim",
+    "custom/waymin-nvrim",
+    "custom/waymin-nwg-displays",
+    "custom/waymin-octopi",
+    "custom/waymin-octopi-cachecleaner",
+    "custom/waymin-octopi-notifier",
+    "custom/waymin-octopi-repoeditor",
+    "custom/waymin-okular",
+    "custom/waymin-okularapplicationcomicbook",
+    "custom/waymin-okularapplicationdjvu",
+    "custom/waymin-okularapplicationdvi",
+    "custom/waymin-okularapplicationepub",
+    "custom/waymin-okularapplicationfax",
+    "custom/waymin-okularapplicationfb",
+    "custom/waymin-okularapplicationghostview",
+    "custom/waymin-okularapplicationkimgio",
+    "custom/waymin-okularapplicationmd",
+    "custom/waymin-okularapplicationmobi",
+    "custom/waymin-okularapplicationpdf",
+    "custom/waymin-okularapplicationpdf-desktop",
+    "custom/waymin-okularapplicationpdf-desktop-2",
+    "custom/waymin-okularapplicationpdf-desktop-3",
+    "custom/waymin-okularapplicationtiff",
+    "custom/waymin-okularapplicationtxt",
+    "custom/waymin-okularapplicationxps",
+    "custom/waymin-openstreetmap-geo-handler",
+    "custom/waymin-opera-gx",
+    "custom/waymin-org-flameshot-flameshot",
+    "custom/waymin-org-freecad-freecad",
+    "custom/waymin-org-freedesktop-impl-portal-desktop-kde",
+    "custom/waymin-org-freedesktop-xwayland",
+    "custom/waymin-org-gnome-baobab",
+    "custom/waymin-org-gnome-diskutility",
+    "custom/waymin-org-gnome-nautilus",
+    "custom/waymin-org-gnome-networkdisplays",
+    "custom/waymin-org-gnome-seahorse-application",
+    "custom/waymin-org-gnome-zenity",
+    "custom/waymin-org-gnupg-pinentry-qt",
+    "custom/waymin-org-gnupg-pinentry-qt5",
+    "custom/waymin-org-kde-ark",
+    "custom/waymin-org-kde-baloorunner",
+    "custom/waymin-org-kde-bluedevilsendfile",
+    "custom/waymin-org-kde-bluedevilwizard",
+    "custom/waymin-org-kde-configureprinter",
+    "custom/waymin-org-kde-discover",
+    "custom/waymin-org-kde-discover-flatpak",
+    "custom/waymin-org-kde-discover-notifier",
+    "custom/waymin-org-kde-discover-snap",
+    "custom/waymin-org-kde-discover-urlhandler",
+    "custom/waymin-org-kde-dolphin",
+    "custom/waymin-org-kde-drkonqi",
+    "custom/waymin-org-kde-drkonqi-coredump-gui",
+    "custom/waymin-org-kde-kate",
+    "custom/waymin-org-kde-kcolorschemeeditor",
+    "custom/waymin-org-kde-kded6",
+    "custom/waymin-org-kde-keditfiletype",
+    "custom/waymin-org-kde-kfontinst",
+    "custom/waymin-org-kde-kfontview",
+    "custom/waymin-org-kde-kinfocenter",
+    "custom/waymin-org-kde-kiod6",
+    "custom/waymin-org-kde-klipper",
+    "custom/waymin-org-kde-kmenuedit",
+    "custom/waymin-org-kde-knetattach",
+    "custom/waymin-org-kde-knewstuff-dialog6",
+    "custom/waymin-org-kde-knighttimed",
+    "custom/waymin-org-kde-konsole",
+    "custom/waymin-org-kde-krdpserver",
+    "custom/waymin-org-kde-ksecretd",
+    "custom/waymin-org-kde-ksshaskpass",
+    "custom/waymin-org-kde-kwalletmanager",
+    "custom/waymin-org-kde-kwin-killer",
+    "custom/waymin-org-kde-kwinx11-killer",
+    "custom/waymin-org-kde-kwrite",
+    "custom/waymin-org-kde-okular",
+    "custom/waymin-org-kde-plasma-fallback-session-save",
+    "custom/waymin-org-kde-plasma-interactiveconsole",
+    "custom/waymin-org-kde-plasma-systemmonitor",
+    "custom/waymin-org-kde-plasma-welcome",
+    "custom/waymin-org-kde-plasma-browserintegration-host",
+    "custom/waymin-org-kde-plasma-emojier",
+    "custom/waymin-org-kde-plasma-keyboard",
+    "custom/waymin-org-kde-plasma-settings-open",
+    "custom/waymin-org-kde-plasmashell",
+    "custom/waymin-org-kde-plasmawindowed",
+    "custom/waymin-org-kde-polkit-kde-authentication-agent-1",
+    "custom/waymin-org-kde-printqueue",
+    "custom/waymin-org-kde-secretprompter",
+    "custom/waymin-org-kde-spectacle",
+    "custom/waymin-org-kde-vpnimport",
+    "custom/waymin-org-kiwix-desktop",
+    "custom/waymin-org-mozilla-thunderbird",
+    "custom/waymin-org-openusd-usdview",
+    "custom/waymin-org-prismlauncher-prismlauncher",
+    "custom/waymin-org-pulseaudio-pavucontrol",
+    "custom/waymin-org-qelectrotech-qelectrotech",
+    "custom/waymin-org-qutebrowser-qutebrowser",
+    "custom/waymin-outfitstudio",
+    "custom/waymin-overwatch",
+    "custom/waymin-protontricks",
+    "custom/waymin-protontricks-launch",
+    "custom/waymin-prusagcodeviewer",
+    "custom/waymin-prusaslicer",
+    "custom/waymin-qdbusviewer",
+    "custom/waymin-qemu",
+    "custom/waymin-qt6ct",
+    "custom/waymin-qv4l2",
+    "custom/waymin-qvidcap",
+    "custom/waymin-red-dead-redemption-2",
+    "custom/waymin-redshift",
+    "custom/waymin-redshift-gtk",
+    "custom/waymin-remote-viewer",
+    "custom/waymin-risk-of-rain-2",
+    "custom/waymin-satty",
+    "custom/waymin-signon-ui",
+    "custom/waymin-slack",
+    "custom/waymin-spotify-launcher",
+    "custom/waymin-steam",
+    "custom/waymin-system-config-printer",
+    "custom/waymin-systemsettings",
+    "custom/waymin-tabletop-simulator",
+    "custom/waymin-team-fortress-2",
+    "custom/waymin-the-elder-scrolls-iv-oblivion-remastered",
+    "custom/waymin-thunar",
+    "custom/waymin-thunar-bulk-rename",
+    "custom/waymin-thunar-settings",
+    "custom/waymin-thunar-volman-settings",
+    "custom/waymin-timeshift-gtk",
+    "custom/waymin-uninstall-2025-21779569356794",
+    "custom/waymin-uninstall-docnav1779569356826",
+    "custom/waymin-uninstall-xilinx-information-center1779569356767",
+    "custom/waymin-unityhub",
+    "custom/waymin-unreal",
+    "custom/waymin-upgun",
+    "custom/waymin-user-dirs-update-gtk",
+    "custom/waymin-userapp-thunderbird-4lffa3",
+    "custom/waymin-userapp-thunderbird-clija3",
+    "custom/waymin-userapp-thunderbird-y6eda3",
+    "custom/waymin-userapp-thunderbird-ziuea3",
+    "custom/waymin-uuctl",
+    "custom/waymin-uxterm",
+    "custom/waymin-ventoy",
+    "custom/waymin-vim",
+    "custom/waymin-virt-manager",
+    "custom/waymin-vitis-2025-21779569356807",
+    "custom/waymin-vivado-2025-2-tcl-shell1779569356814",
+    "custom/waymin-vivado-2025-21779569356817",
+    "custom/waymin-vlc",
+    "custom/waymin-vncviewer",
+    "custom/waymin-vortex",
+    "custom/waymin-waydroid",
+    "custom/waymin-waydroid-com-android-calculator2",
+    "custom/waymin-waydroid-com-android-contacts",
+    "custom/waymin-waydroid-com-android-deskclock",
+    "custom/waymin-waydroid-com-android-documentsui",
+    "custom/waymin-waydroid-com-android-gallery3d",
+    "custom/waymin-waydroid-com-android-inputmethod-latin",
+    "custom/waymin-waydroid-com-android-settings",
+    "custom/waymin-waydroid-com-android-vending",
+    "custom/waymin-waydroid-com-google-android-apps-messaging",
+    "custom/waymin-waydroid-com-google-android-contacts",
+    "custom/waymin-waydroid-com-qooapp-qoohelper",
+    "custom/waymin-waydroid-org-lineageos-aperture",
+    "custom/waymin-waydroid-org-lineageos-eleven",
+    "custom/waymin-waydroid-org-lineageos-etar",
+    "custom/waymin-waydroid-org-lineageos-jelly",
+    "custom/waymin-waydroid-org-lineageos-recorder",
+    "custom/waymin-waynergy",
+    "custom/waymin-webcamoid",
+    "custom/waymin-wheelmap-geo-handler",
+    "custom/waymin-wine",
+    "custom/waymin-wine-extension-aif",
+    "custom/waymin-wine-extension-aifc",
+    "custom/waymin-wine-extension-asf",
+    "custom/waymin-wine-extension-asx",
+    "custom/waymin-wine-extension-au",
+    "custom/waymin-wine-extension-avi",
+    "custom/waymin-wine-extension-cda",
+    "custom/waymin-wine-extension-chm",
+    "custom/waymin-wine-extension-crt",
+    "custom/waymin-wine-extension-dvr-ms",
+    "custom/waymin-wine-extension-hlp",
+    "custom/waymin-wine-extension-m1v",
+    "custom/waymin-wine-extension-m3u",
+    "custom/waymin-wine-extension-mid",
+    "custom/waymin-wine-extension-mp2",
+    "custom/waymin-wine-extension-mp3",
+    "custom/waymin-wine-extension-msp",
+    "custom/waymin-wine-extension-reg",
+    "custom/waymin-wine-extension-rmi",
+    "custom/waymin-wine-extension-sct",
+    "custom/waymin-wine-extension-vbs",
+    "custom/waymin-wine-extension-wav",
+    "custom/waymin-wine-extension-wax",
+    "custom/waymin-wine-extension-wm",
+    "custom/waymin-wine-extension-wma",
+    "custom/waymin-wine-extension-wmd",
+    "custom/waymin-wine-extension-wms",
+    "custom/waymin-wine-extension-wmv",
+    "custom/waymin-wine-extension-wmz",
+    "custom/waymin-wine-extension-wpl",
+    "custom/waymin-wine-extension-wsc",
+    "custom/waymin-wine-extension-wvx",
+    "custom/waymin-wine-protocol-com-epicgames-launcher",
+    "custom/waymin-wine-protocol-eaconnect-microsoft",
+    "custom/waymin-wine-protocol-ealink",
+    "custom/waymin-wine-protocol-http",
+    "custom/waymin-wine-protocol-https",
+    "custom/waymin-wine-protocol-link2ea",
+    "custom/waymin-wine-protocol-microsoft-edge",
+    "custom/waymin-wine-protocol-mms",
+    "custom/waymin-wine-protocol-mmst",
+    "custom/waymin-wine-protocol-mmsu",
+    "custom/waymin-wine-protocol-msbd",
+    "custom/waymin-wine-protocol-origin",
+    "custom/waymin-wine-protocol-origin2",
+    "custom/waymin-wine-protocol-qrc",
+    "custom/waymin-wine-protocol-uplay",
+    "custom/waymin-winetricks",
+    "custom/waymin-xdg-desktop-portal-gnome",
+    "custom/waymin-xdg-desktop-portal-gtk",
+    "custom/waymin-xfce4-about",
+    "custom/waymin-xgps",
+    "custom/waymin-xgpsspeed",
+    "custom/waymin-xilinx-information-center1779569356787",
+    "custom/waymin-xterm",
+    "custom/waymin-zoom",
+    // WAYMIN_LIST_END
+    "custom/window-class"
+  ],
+  "modules-center": [
+    "custom/power"
+  ],
+  "modules-right": [
+    "custom/power_draw",
+    "custom/audio",
+    "backlight",
+    "network",
+    "clock"
+  ],
+
+  "custom/workspace-group": {
+    "format": "{}",
+    "exec": "~/scripts/workspace-group.sh",
+    "interval": 1,
+    "markup": false
+  },
+
+  "custom/hyprland-workspaces": {
+    "exec": "hyprctl workspaces -j | jq -r '.[] | \"[\" + (if .focused then \"*\" else \" \" end) + (.id|tostring) + \"]\"' | tr -d '\\n'",
+    "interval": 2,
+    "return-type": "text"
+  },
+
+  "custom/power": {
+    "format": "⚡ {}W",
+    "exec": "nvidia-smi --query-gpu=power.draw --format=csv,noheader,nounits 2>/dev/null || echo 'OFFLINE'",
+    "interval": 5
+  },
+
+  "custom/window-class": {
+    "exec": "socat -u UNIX-CONNECT:/tmp/hypr/$(echo $HYPRLAND_INSTANCE_SIGNATURE)/socket2.sock - | stdbuf -oL grep -F 'activewindow,' | stdbuf -oL cut -d, -f3-",
+    "return-type": "json",
+    "format": "{}",
+    "on-update": "hyprctl activewindow -j | jq -r .initialClass > /tmp/waybar_active_class"
+  },
+
+  "custom/audio": {
+    "exec": "~/.config/waybar/scripts/audio.sh",
+    "return-type": "json",
+    "interval": 1,
+    "on-scroll-up": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%+ && pkill -RTMIN+8 waybar",
+    "on-scroll-down": "wpctl set-volume @DEFAULT_AUDIO_SINK@ 5%- && pkill -RTMIN+8 waybar",
+    "on-click": "~/.config/waybar/scripts/audio_menu.py",
+    "signal": 8
+  },
+
+  "backlight": {
+    "format": "󰃟 {percent}%",
+    "on-click": "brightnessctl s +10%"
+  },
+
+  "network-custom": {
+    "format": "{output}",
+    "exec": "~/.config/waybar/network.sh",
+    "interval": 5,
+    "on-click": "nm-connection-editor"
+  },
+
+  "clock": {
+    "format": " {:%I:%M %p}",
+    "tooltip-format": "{:%A, %B %d, %Y}"
+  },
+
+  // WAYMIN_DEFS_START
+    "custom/waymin-refresh": {
+        "format": "⟳",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --refresh",
+        "tooltip": "Refresh Taskbar Entries"
+    },
+    "custom/waymin---servants-of-harvest-wish": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status   servants of harvest wish",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu   servants of harvest wish",
+        "interval": 2
+    },
+    "custom/waymin-3d-aim-trainer": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status 3d aim trainer",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu 3d aim trainer",
+        "interval": 2
+    },
+    "custom/waymin-add-design-tools-or-devices-2025-21779569356796": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status add design tools or devices 2025.2_1779569356796",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu add design tools or devices 2025.2_1779569356796",
+        "interval": 2
+    },
+    "custom/waymin-aimlabs": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status aimlabs",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu aimlabs",
+        "interval": 2
+    },
+    "custom/waymin-android-studio": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status android-studio",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu android-studio",
+        "interval": 2
+    },
+    "custom/waymin-anki": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status anki",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu anki",
+        "interval": 2
+    },
+    "custom/waymin-antimatter-dimensions": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status antimatter dimensions",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu antimatter dimensions",
+        "interval": 2
+    },
+    "custom/waymin-armorpaint": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status armorpaint",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu armorpaint",
+        "interval": 2
+    },
+    "custom/waymin-assistant": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status assistant",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu assistant",
+        "interval": 2
+    },
+    "custom/waymin-audacity": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status audacity",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu audacity",
+        "interval": 2
+    },
+    "custom/waymin-avahi-discover": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status avahi-discover",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu avahi-discover",
+        "interval": 2
+    },
+    "custom/waymin-barrier": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status barrier",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu barrier",
+        "interval": 2
+    },
+    "custom/waymin-bitburner": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status bitburner",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu bitburner",
+        "interval": 2
+    },
+    "custom/waymin-black-myth-wukong": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status black myth wukong",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu black myth wukong",
+        "interval": 2
+    },
+    "custom/waymin-blackmagicraw-player": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status blackmagicraw-player",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu blackmagicraw-player",
+        "interval": 2
+    },
+    "custom/waymin-blackmagicraw-speedtest": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status blackmagicraw-speedtest",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu blackmagicraw-speedtest",
+        "interval": 2
+    },
+    "custom/waymin-blender": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status blender",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu blender",
+        "interval": 2
+    },
+    "custom/waymin-blockbench": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status blockbench",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu blockbench",
+        "interval": 2
+    },
+    "custom/waymin-blueman-adapters": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status blueman-adapters",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu blueman-adapters",
+        "interval": 2
+    },
+    "custom/waymin-blueman-manager": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status blueman-manager",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu blueman-manager",
+        "interval": 2
+    },
+    "custom/waymin-bodyslide": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status bodyslide",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu bodyslide",
+        "interval": 2
+    },
+    "custom/waymin-breezestyleconfig": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status breezestyleconfig",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu breezestyleconfig",
+        "interval": 2
+    },
+    "custom/waymin-bssh": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status bssh",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu bssh",
+        "interval": 2
+    },
+    "custom/waymin-bvnc": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status bvnc",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu bvnc",
+        "interval": 2
+    },
+    "custom/waymin-chromium": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status chromium",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu chromium",
+        "interval": 2
+    },
+    "custom/waymin-cmake-gui": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status cmake-gui",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu cmake-gui",
+        "interval": 2
+    },
+    "custom/waymin-cockos-reaper": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status cockos-reaper",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu cockos-reaper",
+        "interval": 2
+    },
+    "custom/waymin-code-oss": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status code-oss",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu code-oss",
+        "interval": 2
+    },
+    "custom/waymin-code-oss-url-handler": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status code-oss-url-handler",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu code-oss-url-handler",
+        "interval": 2
+    },
+    "custom/waymin-code-url-handler": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status code-url-handler",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu code-url-handler",
+        "interval": 2
+    },
+    "custom/waymin-com-cloudflare-warp": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status com.cloudflare.warp",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu com.cloudflare.warp",
+        "interval": 2
+    },
+    "custom/waymin-com-cloudflare-warptaskbar": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status com.cloudflare.warptaskbar",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu com.cloudflare.warptaskbar",
+        "interval": 2
+    },
+    "custom/waymin-com-github-tchx84-flatseal": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status com.github.tchx84.flatseal",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu com.github.tchx84.flatseal",
+        "interval": 2
+    },
+    "custom/waymin-com-github-wwmm-easyeffects": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status com.github.wwmm.easyeffects",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu com.github.wwmm.easyeffects",
+        "interval": 2
+    },
+    "custom/waymin-com-nexusmods-app": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status com.nexusmods.app",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu com.nexusmods.app",
+        "interval": 2
+    },
+    "custom/waymin-com-nexusmods-vortex-dev": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status com.nexusmods.vortex.dev",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu com.nexusmods.vortex.dev",
+        "interval": 2
+    },
+    "custom/waymin-com-obsproject-studio": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status com.obsproject.studio",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu com.obsproject.studio",
+        "interval": 2
+    },
+    "custom/waymin-com-opera-opera-desktop": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status com.opera.opera.desktop",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu com.opera.opera.desktop",
+        "interval": 2
+    },
+    "custom/waymin-com-opera-opera-desktop-2": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status com.opera.opera.desktop-2",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu com.opera.opera.desktop-2",
+        "interval": 2
+    },
+    "custom/waymin-com-raspberrypi-rpi-imager": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status com.raspberrypi.rpi-imager",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu com.raspberrypi.rpi-imager",
+        "interval": 2
+    },
+    "custom/waymin-combat-master": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status combat master",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu combat master",
+        "interval": 2
+    },
+    "custom/waymin-counter-strike-2": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status counter-strike 2",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu counter-strike 2",
+        "interval": 2
+    },
+    "custom/waymin-cups": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status cups",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu cups",
+        "interval": 2
+    },
+    "custom/waymin-curseforge": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status curseforge",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu curseforge",
+        "interval": 2
+    },
+    "custom/waymin-davinci-resolve": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status davinci-resolve",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu davinci-resolve",
+        "interval": 2
+    },
+    "custom/waymin-davincicontrolpanelssetup": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status davincicontrolpanelssetup",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu davincicontrolpanelssetup",
+        "interval": 2
+    },
+    "custom/waymin-davinciresolve": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status davinciresolve",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu davinciresolve",
+        "interval": 2
+    },
+    "custom/waymin-designer": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status designer",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu designer",
+        "interval": 2
+    },
+    "custom/waymin-discord": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status discord",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu discord",
+        "interval": 2
+    },
+    "custom/waymin-discord-402572971681644545": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status discord-402572971681644545",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu discord-402572971681644545",
+        "interval": 2
+    },
+    "custom/waymin-discord-712264497787568171": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status discord-712264497787568171",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu discord-712264497787568171",
+        "interval": 2
+    },
+    "custom/waymin-disfigure": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status disfigure",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu disfigure",
+        "interval": 2
+    },
+    "custom/waymin-documentation-navigator1779569356823": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status documentation navigator_1779569356823",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu documentation navigator_1779569356823",
+        "interval": 2
+    },
+    "custom/waymin-dragon-ball-fighterz": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status dragon ball fighterz",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu dragon ball fighterz",
+        "interval": 2
+    },
+    "custom/waymin-dragon-ball-gekishin-squadra": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status dragon ball gekishin squadra",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu dragon ball gekishin squadra",
+        "interval": 2
+    },
+    "custom/waymin-dragon-ball-sparking-zero": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status dragon ball sparking! zero",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu dragon ball sparking! zero",
+        "interval": 2
+    },
+    "custom/waymin-drawio": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status drawio",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu drawio",
+        "interval": 2
+    },
+    "custom/waymin-electron37": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status electron37",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu electron37",
+        "interval": 2
+    },
+    "custom/waymin-firefox": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status firefox",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu firefox",
+        "interval": 2
+    },
+    "custom/waymin-fluid1-3": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status fluid1.3",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu fluid1.3",
+        "interval": 2
+    },
+    "custom/waymin-fps-chess": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status fps chess",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu fps chess",
+        "interval": 2
+    },
+    "custom/waymin-freecad": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status freecad",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu freecad",
+        "interval": 2
+    },
+    "custom/waymin-gammastep": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status gammastep",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu gammastep",
+        "interval": 2
+    },
+    "custom/waymin-gammastep-indicator": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status gammastep-indicator",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu gammastep-indicator",
+        "interval": 2
+    },
+    "custom/waymin-gcr-prompter": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status gcr-prompter",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu gcr-prompter",
+        "interval": 2
+    },
+    "custom/waymin-gcr-viewer": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status gcr-viewer",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu gcr-viewer",
+        "interval": 2
+    },
+    "custom/waymin-gimp": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status gimp",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu gimp",
+        "interval": 2
+    },
+    "custom/waymin-gkbd-keyboard-display": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status gkbd-keyboard-display",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu gkbd-keyboard-display",
+        "interval": 2
+    },
+    "custom/waymin-gnome-disk-image-mounter": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status gnome-disk-image-mounter",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu gnome-disk-image-mounter",
+        "interval": 2
+    },
+    "custom/waymin-gnome-disk-image-writer": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status gnome-disk-image-writer",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu gnome-disk-image-writer",
+        "interval": 2
+    },
+    "custom/waymin-google-maps-geo-handler": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status google-maps-geo-handler",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu google-maps-geo-handler",
+        "interval": 2
+    },
+    "custom/waymin-gparted": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status gparted",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu gparted",
+        "interval": 2
+    },
+    "custom/waymin-gtkwave": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status gtkwave",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu gtkwave",
+        "interval": 2
+    },
+    "custom/waymin-guilty-gear--strive-": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status guilty gear -strive-",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu guilty gear -strive-",
+        "interval": 2
+    },
+    "custom/waymin-halo-infinite": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status halo infinite",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu halo infinite",
+        "interval": 2
+    },
+    "custom/waymin-halo-the-master-chief-collection": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status halo the master chief collection",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu halo the master chief collection",
+        "interval": 2
+    },
+    "custom/waymin-helldivers-2": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status helldivers 2",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu helldivers 2",
+        "interval": 2
+    },
+    "custom/waymin-heroic": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status heroic",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu heroic",
+        "interval": 2
+    },
+    "custom/waymin-htop": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status htop",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu htop",
+        "interval": 2
+    },
+    "custom/waymin-install4jcqtoec-worldpainter": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status install4j_cqtoec-worldpainter",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu install4j_cqtoec-worldpainter",
+        "interval": 2
+    },
+    "custom/waymin-java-java-openjdk": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status java-java-openjdk",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu java-java-openjdk",
+        "interval": 2
+    },
+    "custom/waymin-java-java17-openjdk": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status java-java17-openjdk",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu java-java17-openjdk",
+        "interval": 2
+    },
+    "custom/waymin-java-java21-openjdk": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status java-java21-openjdk",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu java-java21-openjdk",
+        "interval": 2
+    },
+    "custom/waymin-jconsole-java-openjdk": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status jconsole-java-openjdk",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu jconsole-java-openjdk",
+        "interval": 2
+    },
+    "custom/waymin-jconsole-java17-openjdk": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status jconsole-java17-openjdk",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu jconsole-java17-openjdk",
+        "interval": 2
+    },
+    "custom/waymin-jconsole-java21-openjdk": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status jconsole-java21-openjdk",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu jconsole-java21-openjdk",
+        "interval": 2
+    },
+    "custom/waymin-jshell-java-openjdk": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status jshell-java-openjdk",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu jshell-java-openjdk",
+        "interval": 2
+    },
+    "custom/waymin-jshell-java17-openjdk": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status jshell-java17-openjdk",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu jshell-java17-openjdk",
+        "interval": 2
+    },
+    "custom/waymin-jshell-java21-openjdk": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status jshell-java21-openjdk",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu jshell-java21-openjdk",
+        "interval": 2
+    },
+    "custom/waymin-kaccess": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kaccess",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kaccess",
+        "interval": 2
+    },
+    "custom/waymin-kando": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kando",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kando",
+        "interval": 2
+    },
+    "custom/waymin-kcmabout-distro": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_about-distro",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_about-distro",
+        "interval": 2
+    },
+    "custom/waymin-kcmaccess": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_access",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_access",
+        "interval": 2
+    },
+    "custom/waymin-kcmactivities": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_activities",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_activities",
+        "interval": 2
+    },
+    "custom/waymin-kcmanimations": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_animations",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_animations",
+        "interval": 2
+    },
+    "custom/waymin-kcmanimationsx11": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_animations_x11",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_animations_x11",
+        "interval": 2
+    },
+    "custom/waymin-kcmapp-permissions": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_app-permissions",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_app-permissions",
+        "interval": 2
+    },
+    "custom/waymin-kcmautostart": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_autostart",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_autostart",
+        "interval": 2
+    },
+    "custom/waymin-kcmbaloofile": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_baloofile",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_baloofile",
+        "interval": 2
+    },
+    "custom/waymin-kcmbluetooth": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_bluetooth",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_bluetooth",
+        "interval": 2
+    },
+    "custom/waymin-kcmbolt": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_bolt",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_bolt",
+        "interval": 2
+    },
+    "custom/waymin-kcmbreezedecoration": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_breezedecoration",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_breezedecoration",
+        "interval": 2
+    },
+    "custom/waymin-kcmcellularnetwork": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_cellular_network",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_cellular_network",
+        "interval": 2
+    },
+    "custom/waymin-kcmclock": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_clock",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_clock",
+        "interval": 2
+    },
+    "custom/waymin-kcmcolors": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_colors",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_colors",
+        "interval": 2
+    },
+    "custom/waymin-kcmcomponentchooser": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_componentchooser",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_componentchooser",
+        "interval": 2
+    },
+    "custom/waymin-kcmcursortheme": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_cursortheme",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_cursortheme",
+        "interval": 2
+    },
+    "custom/waymin-kcmdesktoppaths": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_desktoppaths",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_desktoppaths",
+        "interval": 2
+    },
+    "custom/waymin-kcmdesktoptheme": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_desktoptheme",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_desktoptheme",
+        "interval": 2
+    },
+    "custom/waymin-kcmdisks": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_disks",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_disks",
+        "interval": 2
+    },
+    "custom/waymin-kcmenergyinfo": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_energyinfo",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_energyinfo",
+        "interval": 2
+    },
+    "custom/waymin-kcmfeedback": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_feedback",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_feedback",
+        "interval": 2
+    },
+    "custom/waymin-kcmfiletypes": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_filetypes",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_filetypes",
+        "interval": 2
+    },
+    "custom/waymin-kcmfirewall": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_firewall",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_firewall",
+        "interval": 2
+    },
+    "custom/waymin-kcmfontinst": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_fontinst",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_fontinst",
+        "interval": 2
+    },
+    "custom/waymin-kcmfonts": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_fonts",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_fonts",
+        "interval": 2
+    },
+    "custom/waymin-kcmgamecontroller": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_gamecontroller",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_gamecontroller",
+        "interval": 2
+    },
+    "custom/waymin-kcmicons": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_icons",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_icons",
+        "interval": 2
+    },
+    "custom/waymin-kcmkaccounts": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_kaccounts",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_kaccounts",
+        "interval": 2
+    },
+    "custom/waymin-kcmkded": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_kded",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_kded",
+        "interval": 2
+    },
+    "custom/waymin-kcmkeyboard": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_keyboard",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_keyboard",
+        "interval": 2
+    },
+    "custom/waymin-kcmkeys": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_keys",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_keys",
+        "interval": 2
+    },
+    "custom/waymin-kcmkrdpserver": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_krdpserver",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_krdpserver",
+        "interval": 2
+    },
+    "custom/waymin-kcmkrunnersettings": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_krunnersettings",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_krunnersettings",
+        "interval": 2
+    },
+    "custom/waymin-kcmkscreen": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_kscreen",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_kscreen",
+        "interval": 2
+    },
+    "custom/waymin-kcmkwineffects": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_kwin_effects",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_kwin_effects",
+        "interval": 2
+    },
+    "custom/waymin-kcmkwineffectsx11": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_kwin_effects_x11",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_kwin_effects_x11",
+        "interval": 2
+    },
+    "custom/waymin-kcmkwinscripts": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_kwin_scripts",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_kwin_scripts",
+        "interval": 2
+    },
+    "custom/waymin-kcmkwinscriptsx11": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_kwin_scripts_x11",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_kwin_scripts_x11",
+        "interval": 2
+    },
+    "custom/waymin-kcmkwinvirtualdesktops": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_kwin_virtualdesktops",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_kwin_virtualdesktops",
+        "interval": 2
+    },
+    "custom/waymin-kcmkwinvirtualdesktopsx11": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_kwin_virtualdesktops_x11",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_kwin_virtualdesktops_x11",
+        "interval": 2
+    },
+    "custom/waymin-kcmkwindecoration": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_kwindecoration",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_kwindecoration",
+        "interval": 2
+    },
+    "custom/waymin-kcmkwindecorationx11": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_kwindecoration_x11",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_kwindecoration_x11",
+        "interval": 2
+    },
+    "custom/waymin-kcmkwinoptions": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_kwinoptions",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_kwinoptions",
+        "interval": 2
+    },
+    "custom/waymin-kcmkwinoptionsx11": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_kwinoptions_x11",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_kwinoptions_x11",
+        "interval": 2
+    },
+    "custom/waymin-kcmkwinrules": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_kwinrules",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_kwinrules",
+        "interval": 2
+    },
+    "custom/waymin-kcmkwinrulesx11": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_kwinrules_x11",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_kwinrules_x11",
+        "interval": 2
+    },
+    "custom/waymin-kcmkwintabbox": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_kwintabbox",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_kwintabbox",
+        "interval": 2
+    },
+    "custom/waymin-kcmkwintabboxx11": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_kwintabbox_x11",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_kwintabbox_x11",
+        "interval": 2
+    },
+    "custom/waymin-kcmkwinxwayland": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_kwinxwayland",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_kwinxwayland",
+        "interval": 2
+    },
+    "custom/waymin-kcmlandingpage": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_landingpage",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_landingpage",
+        "interval": 2
+    },
+    "custom/waymin-kcmlookandfeel": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_lookandfeel",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_lookandfeel",
+        "interval": 2
+    },
+    "custom/waymin-kcmmobilehotspot": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_mobile_hotspot",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_mobile_hotspot",
+        "interval": 2
+    },
+    "custom/waymin-kcmmobilepower": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_mobile_power",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_mobile_power",
+        "interval": 2
+    },
+    "custom/waymin-kcmmobilewifi": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_mobile_wifi",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_mobile_wifi",
+        "interval": 2
+    },
+    "custom/waymin-kcmmobilewired": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_mobile_wired",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_mobile_wired",
+        "interval": 2
+    },
+    "custom/waymin-kcmmouse": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_mouse",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_mouse",
+        "interval": 2
+    },
+    "custom/waymin-kcmnetpref": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_netpref",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_netpref",
+        "interval": 2
+    },
+    "custom/waymin-kcmnetworkmanagement": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_networkmanagement",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_networkmanagement",
+        "interval": 2
+    },
+    "custom/waymin-kcmnightlight": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_nightlight",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_nightlight",
+        "interval": 2
+    },
+    "custom/waymin-kcmnighttime": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_nighttime",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_nighttime",
+        "interval": 2
+    },
+    "custom/waymin-kcmnotifications": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_notifications",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_notifications",
+        "interval": 2
+    },
+    "custom/waymin-kcmoxygendecoration": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_oxygendecoration",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_oxygendecoration",
+        "interval": 2
+    },
+    "custom/waymin-kcmplasmakeyboard": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_plasmakeyboard",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_plasmakeyboard",
+        "interval": 2
+    },
+    "custom/waymin-kcmplasmalogin": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_plasmalogin",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_plasmalogin",
+        "interval": 2
+    },
+    "custom/waymin-kcmplasmasearch": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_plasmasearch",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_plasmasearch",
+        "interval": 2
+    },
+    "custom/waymin-kcmpowerdevilprofilesconfig": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_powerdevilprofilesconfig",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_powerdevilprofilesconfig",
+        "interval": 2
+    },
+    "custom/waymin-kcmprintermanager": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_printer_manager",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_printer_manager",
+        "interval": 2
+    },
+    "custom/waymin-kcmproxy": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_proxy",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_proxy",
+        "interval": 2
+    },
+    "custom/waymin-kcmpulseaudio": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_pulseaudio",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_pulseaudio",
+        "interval": 2
+    },
+    "custom/waymin-kcmqtquicksettings": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_qtquicksettings",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_qtquicksettings",
+        "interval": 2
+    },
+    "custom/waymin-kcmrecentfiles": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_recentfiles",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_recentfiles",
+        "interval": 2
+    },
+    "custom/waymin-kcmregionandlang": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_regionandlang",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_regionandlang",
+        "interval": 2
+    },
+    "custom/waymin-kcmscreenlocker": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_screenlocker",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_screenlocker",
+        "interval": 2
+    },
+    "custom/waymin-kcmsddm": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_sddm",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_sddm",
+        "interval": 2
+    },
+    "custom/waymin-kcmsmserver": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_smserver",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_smserver",
+        "interval": 2
+    },
+    "custom/waymin-kcmsolidactions": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_solid_actions",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_solid_actions",
+        "interval": 2
+    },
+    "custom/waymin-kcmsoundtheme": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_soundtheme",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_soundtheme",
+        "interval": 2
+    },
+    "custom/waymin-kcmsplashscreen": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_splashscreen",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_splashscreen",
+        "interval": 2
+    },
+    "custom/waymin-kcmstyle": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_style",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_style",
+        "interval": 2
+    },
+    "custom/waymin-kcmtablet": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_tablet",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_tablet",
+        "interval": 2
+    },
+    "custom/waymin-kcmtouchpad": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_touchpad",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_touchpad",
+        "interval": 2
+    },
+    "custom/waymin-kcmtouchscreen": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_touchscreen",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_touchscreen",
+        "interval": 2
+    },
+    "custom/waymin-kcmtrash": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_trash",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_trash",
+        "interval": 2
+    },
+    "custom/waymin-kcmupdates": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_updates",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_updates",
+        "interval": 2
+    },
+    "custom/waymin-kcmusers": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_users",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_users",
+        "interval": 2
+    },
+    "custom/waymin-kcmvirtualkeyboard": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_virtualkeyboard",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_virtualkeyboard",
+        "interval": 2
+    },
+    "custom/waymin-kcmwallpaper": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_wallpaper",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_wallpaper",
+        "interval": 2
+    },
+    "custom/waymin-kcmwebshortcuts": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_webshortcuts",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_webshortcuts",
+        "interval": 2
+    },
+    "custom/waymin-kcmworkspace": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcm_workspace",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcm_workspace",
+        "interval": 2
+    },
+    "custom/waymin-kcmspellchecking": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kcmspellchecking",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kcmspellchecking",
+        "interval": 2
+    },
+    "custom/waymin-kdesystemsettings": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kdesystemsettings",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kdesystemsettings",
+        "interval": 2
+    },
+    "custom/waymin-khal": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status khal",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu khal",
+        "interval": 2
+    },
+    "custom/waymin-kitty": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kitty",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kitty",
+        "interval": 2
+    },
+    "custom/waymin-kitty-open": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kitty-open",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kitty-open",
+        "interval": 2
+    },
+    "custom/waymin-ktelnetservice6": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status ktelnetservice6",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu ktelnetservice6",
+        "interval": 2
+    },
+    "custom/waymin-kvantummanager": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kvantummanager",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kvantummanager",
+        "interval": 2
+    },
+    "custom/waymin-kwalletmanager5-kwalletd": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kwalletmanager5-kwalletd",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kwalletmanager5-kwalletd",
+        "interval": 2
+    },
+    "custom/waymin-kwincompositing": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kwincompositing",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kwincompositing",
+        "interval": 2
+    },
+    "custom/waymin-libreoffice-base": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status libreoffice-base",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu libreoffice-base",
+        "interval": 2
+    },
+    "custom/waymin-libreoffice-calc": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status libreoffice-calc",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu libreoffice-calc",
+        "interval": 2
+    },
+    "custom/waymin-libreoffice-draw": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status libreoffice-draw",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu libreoffice-draw",
+        "interval": 2
+    },
+    "custom/waymin-libreoffice-impress": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status libreoffice-impress",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu libreoffice-impress",
+        "interval": 2
+    },
+    "custom/waymin-libreoffice-math": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status libreoffice-math",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu libreoffice-math",
+        "interval": 2
+    },
+    "custom/waymin-libreoffice-startcenter": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status libreoffice-startcenter",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu libreoffice-startcenter",
+        "interval": 2
+    },
+    "custom/waymin-libreoffice-writer": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status libreoffice-writer",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu libreoffice-writer",
+        "interval": 2
+    },
+    "custom/waymin-libreoffice-xsltfilter": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status libreoffice-xsltfilter",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu libreoffice-xsltfilter",
+        "interval": 2
+    },
+    "custom/waymin-linguist": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status linguist",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu linguist",
+        "interval": 2
+    },
+    "custom/waymin-linux-desktop-gremlin": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status linux-desktop-gremlin",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu linux-desktop-gremlin",
+        "interval": 2
+    },
+    "custom/waymin-logisim-evolution": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status logisim-evolution",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu logisim-evolution",
+        "interval": 2
+    },
+    "custom/waymin-lsfg-vk-ui": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status lsfg-vk-ui",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu lsfg-vk-ui",
+        "interval": 2
+    },
+    "custom/waymin-lsp-plugins": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status lsp-plugins",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu lsp-plugins",
+        "interval": 2
+    },
+    "custom/waymin-lstopo": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status lstopo",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu lstopo",
+        "interval": 2
+    },
+    "custom/waymin-lutris": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status lutris",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu lutris",
+        "interval": 2
+    },
+    "custom/waymin-manage-licenses-2025-21779569356791": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status manage licenses 2025.2_1779569356791",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu manage licenses 2025.2_1779569356791",
+        "interval": 2
+    },
+    "custom/waymin-marvel-rivals": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status marvel rivals",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu marvel rivals",
+        "interval": 2
+    },
+    "custom/waymin-materialx-grapheditor": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status materialx-grapheditor",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu materialx-grapheditor",
+        "interval": 2
+    },
+    "custom/waymin-materialx-view": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status materialx-view",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu materialx-view",
+        "interval": 2
+    },
+    "custom/waymin-mcreator": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status mcreator",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu mcreator",
+        "interval": 2
+    },
+    "custom/waymin-mkchromecast": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status mkchromecast",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu mkchromecast",
+        "interval": 2
+    },
+    "custom/waymin-modorganizer2-nxm-handler": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status modorganizer2-nxm-handler",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu modorganizer2-nxm-handler",
+        "interval": 2
+    },
+    "custom/waymin-mpv": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status mpv",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu mpv",
+        "interval": 2
+    },
+    "custom/waymin-mw-matlab": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status mw-matlab",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu mw-matlab",
+        "interval": 2
+    },
+    "custom/waymin-mw-matlabconnector": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status mw-matlabconnector",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu mw-matlabconnector",
+        "interval": 2
+    },
+    "custom/waymin-mw-simulink": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status mw-simulink",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu mw-simulink",
+        "interval": 2
+    },
+    "custom/waymin-naruto-to-boruto-shinobi-striker": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status naruto to boruto shinobi striker",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu naruto to boruto shinobi striker",
+        "interval": 2
+    },
+    "custom/waymin-nautilus-autorun-software": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status nautilus-autorun-software",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu nautilus-autorun-software",
+        "interval": 2
+    },
+    "custom/waymin-net-lutris-1b4db7eb-4057-5ddf-91e0-36dec72071f5-10": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status net.lutris.1b4db7eb-4057-5ddf-91e0-36dec72071f5-10",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu net.lutris.1b4db7eb-4057-5ddf-91e0-36dec72071f5-10",
+        "interval": 2
+    },
+    "custom/waymin-net-lutris-bricklink-studio-9": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status net.lutris.bricklink-studio-9",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu net.lutris.bricklink-studio-9",
+        "interval": 2
+    },
+    "custom/waymin-net-lutris-lutris": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status net.lutris.lutris",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu net.lutris.lutris",
+        "interval": 2
+    },
+    "custom/waymin-net-lutris-lutris1": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status net.lutris.lutris1",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu net.lutris.lutris1",
+        "interval": 2
+    },
+    "custom/waymin-nm-applet": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status nm-applet",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu nm-applet",
+        "interval": 2
+    },
+    "custom/waymin-nm-connection-editor": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status nm-connection-editor",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu nm-connection-editor",
+        "interval": 2
+    },
+    "custom/waymin-nvidia-settings": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status nvidia-settings",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu nvidia-settings",
+        "interval": 2
+    },
+    "custom/waymin-nvim": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status nvim",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu nvim",
+        "interval": 2
+    },
+    "custom/waymin-nvrim": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status nvrim",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu nvrim",
+        "interval": 2
+    },
+    "custom/waymin-nwg-displays": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status nwg-displays",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu nwg-displays",
+        "interval": 2
+    },
+    "custom/waymin-octopi": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status octopi",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu octopi",
+        "interval": 2
+    },
+    "custom/waymin-octopi-cachecleaner": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status octopi-cachecleaner",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu octopi-cachecleaner",
+        "interval": 2
+    },
+    "custom/waymin-octopi-notifier": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status octopi-notifier",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu octopi-notifier",
+        "interval": 2
+    },
+    "custom/waymin-octopi-repoeditor": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status octopi-repoeditor",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu octopi-repoeditor",
+        "interval": 2
+    },
+    "custom/waymin-okular": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status okular",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu okular",
+        "interval": 2
+    },
+    "custom/waymin-okularapplicationcomicbook": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status okularapplication_comicbook",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu okularapplication_comicbook",
+        "interval": 2
+    },
+    "custom/waymin-okularapplicationdjvu": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status okularapplication_djvu",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu okularapplication_djvu",
+        "interval": 2
+    },
+    "custom/waymin-okularapplicationdvi": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status okularapplication_dvi",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu okularapplication_dvi",
+        "interval": 2
+    },
+    "custom/waymin-okularapplicationepub": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status okularapplication_epub",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu okularapplication_epub",
+        "interval": 2
+    },
+    "custom/waymin-okularapplicationfax": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status okularapplication_fax",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu okularapplication_fax",
+        "interval": 2
+    },
+    "custom/waymin-okularapplicationfb": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status okularapplication_fb",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu okularapplication_fb",
+        "interval": 2
+    },
+    "custom/waymin-okularapplicationghostview": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status okularapplication_ghostview",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu okularapplication_ghostview",
+        "interval": 2
+    },
+    "custom/waymin-okularapplicationkimgio": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status okularapplication_kimgio",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu okularapplication_kimgio",
+        "interval": 2
+    },
+    "custom/waymin-okularapplicationmd": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status okularapplication_md",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu okularapplication_md",
+        "interval": 2
+    },
+    "custom/waymin-okularapplicationmobi": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status okularapplication_mobi",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu okularapplication_mobi",
+        "interval": 2
+    },
+    "custom/waymin-okularapplicationpdf": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status okularapplication_pdf",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu okularapplication_pdf",
+        "interval": 2
+    },
+    "custom/waymin-okularapplicationpdf-desktop": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status okularapplication_pdf.desktop",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu okularapplication_pdf.desktop",
+        "interval": 2
+    },
+    "custom/waymin-okularapplicationpdf-desktop-2": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status okularapplication_pdf.desktop-2",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu okularapplication_pdf.desktop-2",
+        "interval": 2
+    },
+    "custom/waymin-okularapplicationpdf-desktop-3": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status okularapplication_pdf.desktop-3",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu okularapplication_pdf.desktop-3",
+        "interval": 2
+    },
+    "custom/waymin-okularapplicationtiff": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status okularapplication_tiff",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu okularapplication_tiff",
+        "interval": 2
+    },
+    "custom/waymin-okularapplicationtxt": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status okularapplication_txt",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu okularapplication_txt",
+        "interval": 2
+    },
+    "custom/waymin-okularapplicationxps": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status okularapplication_xps",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu okularapplication_xps",
+        "interval": 2
+    },
+    "custom/waymin-openstreetmap-geo-handler": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status openstreetmap-geo-handler",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu openstreetmap-geo-handler",
+        "interval": 2
+    },
+    "custom/waymin-opera-gx": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status opera-gx",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu opera-gx",
+        "interval": 2
+    },
+    "custom/waymin-org-flameshot-flameshot": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.flameshot.flameshot",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.flameshot.flameshot",
+        "interval": 2
+    },
+    "custom/waymin-org-freecad-freecad": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.freecad.freecad",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.freecad.freecad",
+        "interval": 2
+    },
+    "custom/waymin-org-freedesktop-impl-portal-desktop-kde": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.freedesktop.impl.portal.desktop.kde",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.freedesktop.impl.portal.desktop.kde",
+        "interval": 2
+    },
+    "custom/waymin-org-freedesktop-xwayland": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.freedesktop.xwayland",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.freedesktop.xwayland",
+        "interval": 2
+    },
+    "custom/waymin-org-gnome-baobab": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.gnome.baobab",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.gnome.baobab",
+        "interval": 2
+    },
+    "custom/waymin-org-gnome-diskutility": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.gnome.diskutility",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.gnome.diskutility",
+        "interval": 2
+    },
+    "custom/waymin-org-gnome-nautilus": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.gnome.nautilus",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.gnome.nautilus",
+        "interval": 2
+    },
+    "custom/waymin-org-gnome-networkdisplays": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.gnome.networkdisplays",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.gnome.networkdisplays",
+        "interval": 2
+    },
+    "custom/waymin-org-gnome-seahorse-application": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.gnome.seahorse.application",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.gnome.seahorse.application",
+        "interval": 2
+    },
+    "custom/waymin-org-gnome-zenity": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.gnome.zenity",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.gnome.zenity",
+        "interval": 2
+    },
+    "custom/waymin-org-gnupg-pinentry-qt": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.gnupg.pinentry-qt",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.gnupg.pinentry-qt",
+        "interval": 2
+    },
+    "custom/waymin-org-gnupg-pinentry-qt5": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.gnupg.pinentry-qt5",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.gnupg.pinentry-qt5",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-ark": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.ark",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.ark",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-baloorunner": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.baloorunner",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.baloorunner",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-bluedevilsendfile": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.bluedevilsendfile",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.bluedevilsendfile",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-bluedevilwizard": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.bluedevilwizard",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.bluedevilwizard",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-configureprinter": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.configureprinter",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.configureprinter",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-discover": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.discover",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.discover",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-discover-flatpak": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.discover.flatpak",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.discover.flatpak",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-discover-notifier": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.discover.notifier",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.discover.notifier",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-discover-snap": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.discover.snap",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.discover.snap",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-discover-urlhandler": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.discover.urlhandler",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.discover.urlhandler",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-dolphin": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.dolphin",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.dolphin",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-drkonqi": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.drkonqi",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.drkonqi",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-drkonqi-coredump-gui": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.drkonqi.coredump.gui",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.drkonqi.coredump.gui",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-kate": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.kate",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.kate",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-kcolorschemeeditor": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.kcolorschemeeditor",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.kcolorschemeeditor",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-kded6": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.kded6",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.kded6",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-keditfiletype": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.keditfiletype",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.keditfiletype",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-kfontinst": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.kfontinst",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.kfontinst",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-kfontview": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.kfontview",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.kfontview",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-kinfocenter": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.kinfocenter",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.kinfocenter",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-kiod6": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.kiod6",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.kiod6",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-klipper": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.klipper",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.klipper",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-kmenuedit": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.kmenuedit",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.kmenuedit",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-knetattach": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.knetattach",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.knetattach",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-knewstuff-dialog6": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.knewstuff-dialog6",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.knewstuff-dialog6",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-knighttimed": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.knighttimed",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.knighttimed",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-konsole": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.konsole",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.konsole",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-krdpserver": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.krdpserver",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.krdpserver",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-ksecretd": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.ksecretd",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.ksecretd",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-ksshaskpass": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.ksshaskpass",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.ksshaskpass",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-kwalletmanager": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.kwalletmanager",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.kwalletmanager",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-kwin-killer": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.kwin.killer",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.kwin.killer",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-kwinx11-killer": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.kwin_x11.killer",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.kwin_x11.killer",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-kwrite": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.kwrite",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.kwrite",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-okular": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.okular",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.okular",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-plasma-fallback-session-save": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.plasma-fallback-session-save",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.plasma-fallback-session-save",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-plasma-interactiveconsole": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.plasma-interactiveconsole",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.plasma-interactiveconsole",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-plasma-systemmonitor": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.plasma-systemmonitor",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.plasma-systemmonitor",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-plasma-welcome": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.plasma-welcome",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.plasma-welcome",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-plasma-browserintegration-host": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.plasma.browser_integration.host",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.plasma.browser_integration.host",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-plasma-emojier": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.plasma.emojier",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.plasma.emojier",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-plasma-keyboard": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.plasma.keyboard",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.plasma.keyboard",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-plasma-settings-open": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.plasma.settings.open",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.plasma.settings.open",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-plasmashell": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.plasmashell",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.plasmashell",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-plasmawindowed": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.plasmawindowed",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.plasmawindowed",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-polkit-kde-authentication-agent-1": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.polkit-kde-authentication-agent-1",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.polkit-kde-authentication-agent-1",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-printqueue": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.printqueue",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.printqueue",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-secretprompter": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.secretprompter",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.secretprompter",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-spectacle": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.spectacle",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.spectacle",
+        "interval": 2
+    },
+    "custom/waymin-org-kde-vpnimport": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kde.vpnimport",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kde.vpnimport",
+        "interval": 2
+    },
+    "custom/waymin-org-kiwix-desktop": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.kiwix.desktop",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.kiwix.desktop",
+        "interval": 2
+    },
+    "custom/waymin-org-mozilla-thunderbird": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.mozilla.thunderbird",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.mozilla.thunderbird",
+        "interval": 2
+    },
+    "custom/waymin-org-openusd-usdview": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.openusd.usdview",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.openusd.usdview",
+        "interval": 2
+    },
+    "custom/waymin-org-prismlauncher-prismlauncher": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.prismlauncher.prismlauncher",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.prismlauncher.prismlauncher",
+        "interval": 2
+    },
+    "custom/waymin-org-pulseaudio-pavucontrol": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.pulseaudio.pavucontrol",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.pulseaudio.pavucontrol",
+        "interval": 2
+    },
+    "custom/waymin-org-qelectrotech-qelectrotech": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.qelectrotech.qelectrotech",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.qelectrotech.qelectrotech",
+        "interval": 2
+    },
+    "custom/waymin-org-qutebrowser-qutebrowser": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status org.qutebrowser.qutebrowser",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu org.qutebrowser.qutebrowser",
+        "interval": 2
+    },
+    "custom/waymin-outfitstudio": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status outfitstudio",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu outfitstudio",
+        "interval": 2
+    },
+    "custom/waymin-overwatch": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status overwatch",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu overwatch",
+        "interval": 2
+    },
+    "custom/waymin-protontricks": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status protontricks",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu protontricks",
+        "interval": 2
+    },
+    "custom/waymin-protontricks-launch": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status protontricks-launch",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu protontricks-launch",
+        "interval": 2
+    },
+    "custom/waymin-prusagcodeviewer": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status prusagcodeviewer",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu prusagcodeviewer",
+        "interval": 2
+    },
+    "custom/waymin-prusaslicer": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status prusaslicer",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu prusaslicer",
+        "interval": 2
+    },
+    "custom/waymin-qdbusviewer": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status qdbusviewer",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu qdbusviewer",
+        "interval": 2
+    },
+    "custom/waymin-qemu": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status qemu",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu qemu",
+        "interval": 2
+    },
+    "custom/waymin-qt6ct": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status qt6ct",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu qt6ct",
+        "interval": 2
+    },
+    "custom/waymin-qv4l2": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status qv4l2",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu qv4l2",
+        "interval": 2
+    },
+    "custom/waymin-qvidcap": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status qvidcap",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu qvidcap",
+        "interval": 2
+    },
+    "custom/waymin-red-dead-redemption-2": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status red dead redemption 2",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu red dead redemption 2",
+        "interval": 2
+    },
+    "custom/waymin-redshift": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status redshift",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu redshift",
+        "interval": 2
+    },
+    "custom/waymin-redshift-gtk": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status redshift-gtk",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu redshift-gtk",
+        "interval": 2
+    },
+    "custom/waymin-remote-viewer": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status remote-viewer",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu remote-viewer",
+        "interval": 2
+    },
+    "custom/waymin-risk-of-rain-2": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status risk of rain 2",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu risk of rain 2",
+        "interval": 2
+    },
+    "custom/waymin-satty": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status satty",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu satty",
+        "interval": 2
+    },
+    "custom/waymin-signon-ui": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status signon-ui",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu signon-ui",
+        "interval": 2
+    },
+    "custom/waymin-slack": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status slack",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu slack",
+        "interval": 2
+    },
+    "custom/waymin-spotify-launcher": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status spotify-launcher",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu spotify-launcher",
+        "interval": 2
+    },
+    "custom/waymin-steam": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status steam",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu steam",
+        "interval": 2
+    },
+    "custom/waymin-system-config-printer": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status system-config-printer",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu system-config-printer",
+        "interval": 2
+    },
+    "custom/waymin-systemsettings": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status systemsettings",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu systemsettings",
+        "interval": 2
+    },
+    "custom/waymin-tabletop-simulator": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status tabletop simulator",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu tabletop simulator",
+        "interval": 2
+    },
+    "custom/waymin-team-fortress-2": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status team fortress 2",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu team fortress 2",
+        "interval": 2
+    },
+    "custom/waymin-the-elder-scrolls-iv-oblivion-remastered": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status the elder scrolls iv oblivion remastered",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu the elder scrolls iv oblivion remastered",
+        "interval": 2
+    },
+    "custom/waymin-thunar": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status thunar",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu thunar",
+        "interval": 2
+    },
+    "custom/waymin-thunar-bulk-rename": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status thunar-bulk-rename",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu thunar-bulk-rename",
+        "interval": 2
+    },
+    "custom/waymin-thunar-settings": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status thunar-settings",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu thunar-settings",
+        "interval": 2
+    },
+    "custom/waymin-thunar-volman-settings": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status thunar-volman-settings",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu thunar-volman-settings",
+        "interval": 2
+    },
+    "custom/waymin-timeshift-gtk": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status timeshift-gtk",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu timeshift-gtk",
+        "interval": 2
+    },
+    "custom/waymin-uninstall-2025-21779569356794": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status uninstall 2025.2_1779569356794",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu uninstall 2025.2_1779569356794",
+        "interval": 2
+    },
+    "custom/waymin-uninstall-docnav1779569356826": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status uninstall docnav_1779569356826",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu uninstall docnav_1779569356826",
+        "interval": 2
+    },
+    "custom/waymin-uninstall-xilinx-information-center1779569356767": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status uninstall xilinx information center_1779569356767",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu uninstall xilinx information center_1779569356767",
+        "interval": 2
+    },
+    "custom/waymin-unityhub": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status unityhub",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu unityhub",
+        "interval": 2
+    },
+    "custom/waymin-unreal": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status unreal",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu unreal",
+        "interval": 2
+    },
+    "custom/waymin-upgun": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status upgun",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu upgun",
+        "interval": 2
+    },
+    "custom/waymin-user-dirs-update-gtk": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status user-dirs-update-gtk",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu user-dirs-update-gtk",
+        "interval": 2
+    },
+    "custom/waymin-userapp-thunderbird-4lffa3": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status userapp-thunderbird-4lffa3",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu userapp-thunderbird-4lffa3",
+        "interval": 2
+    },
+    "custom/waymin-userapp-thunderbird-clija3": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status userapp-thunderbird-clija3",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu userapp-thunderbird-clija3",
+        "interval": 2
+    },
+    "custom/waymin-userapp-thunderbird-y6eda3": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status userapp-thunderbird-y6eda3",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu userapp-thunderbird-y6eda3",
+        "interval": 2
+    },
+    "custom/waymin-userapp-thunderbird-ziuea3": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status userapp-thunderbird-ziuea3",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu userapp-thunderbird-ziuea3",
+        "interval": 2
+    },
+    "custom/waymin-uuctl": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status uuctl",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu uuctl",
+        "interval": 2
+    },
+    "custom/waymin-uxterm": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status uxterm",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu uxterm",
+        "interval": 2
+    },
+    "custom/waymin-ventoy": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status ventoy",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu ventoy",
+        "interval": 2
+    },
+    "custom/waymin-vim": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status vim",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu vim",
+        "interval": 2
+    },
+    "custom/waymin-virt-manager": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status virt-manager",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu virt-manager",
+        "interval": 2
+    },
+    "custom/waymin-vitis-2025-21779569356807": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status vitis 2025.2_1779569356807",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu vitis 2025.2_1779569356807",
+        "interval": 2
+    },
+    "custom/waymin-vivado-2025-2-tcl-shell1779569356814": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status vivado 2025.2 tcl shell_1779569356814",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu vivado 2025.2 tcl shell_1779569356814",
+        "interval": 2
+    },
+    "custom/waymin-vivado-2025-21779569356817": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status vivado 2025.2_1779569356817",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu vivado 2025.2_1779569356817",
+        "interval": 2
+    },
+    "custom/waymin-vlc": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status vlc",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu vlc",
+        "interval": 2
+    },
+    "custom/waymin-vncviewer": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status vncviewer",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu vncviewer",
+        "interval": 2
+    },
+    "custom/waymin-vortex": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status vortex",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu vortex",
+        "interval": 2
+    },
+    "custom/waymin-waydroid": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status waydroid",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu waydroid",
+        "interval": 2
+    },
+    "custom/waymin-waydroid-com-android-calculator2": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status waydroid.com.android.calculator2",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu waydroid.com.android.calculator2",
+        "interval": 2
+    },
+    "custom/waymin-waydroid-com-android-contacts": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status waydroid.com.android.contacts",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu waydroid.com.android.contacts",
+        "interval": 2
+    },
+    "custom/waymin-waydroid-com-android-deskclock": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status waydroid.com.android.deskclock",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu waydroid.com.android.deskclock",
+        "interval": 2
+    },
+    "custom/waymin-waydroid-com-android-documentsui": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status waydroid.com.android.documentsui",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu waydroid.com.android.documentsui",
+        "interval": 2
+    },
+    "custom/waymin-waydroid-com-android-gallery3d": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status waydroid.com.android.gallery3d",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu waydroid.com.android.gallery3d",
+        "interval": 2
+    },
+    "custom/waymin-waydroid-com-android-inputmethod-latin": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status waydroid.com.android.inputmethod.latin",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu waydroid.com.android.inputmethod.latin",
+        "interval": 2
+    },
+    "custom/waymin-waydroid-com-android-settings": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status waydroid.com.android.settings",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu waydroid.com.android.settings",
+        "interval": 2
+    },
+    "custom/waymin-waydroid-com-android-vending": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status waydroid.com.android.vending",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu waydroid.com.android.vending",
+        "interval": 2
+    },
+    "custom/waymin-waydroid-com-google-android-apps-messaging": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status waydroid.com.google.android.apps.messaging",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu waydroid.com.google.android.apps.messaging",
+        "interval": 2
+    },
+    "custom/waymin-waydroid-com-google-android-contacts": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status waydroid.com.google.android.contacts",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu waydroid.com.google.android.contacts",
+        "interval": 2
+    },
+    "custom/waymin-waydroid-com-qooapp-qoohelper": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status waydroid.com.qooapp.qoohelper",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu waydroid.com.qooapp.qoohelper",
+        "interval": 2
+    },
+    "custom/waymin-waydroid-org-lineageos-aperture": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status waydroid.org.lineageos.aperture",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu waydroid.org.lineageos.aperture",
+        "interval": 2
+    },
+    "custom/waymin-waydroid-org-lineageos-eleven": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status waydroid.org.lineageos.eleven",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu waydroid.org.lineageos.eleven",
+        "interval": 2
+    },
+    "custom/waymin-waydroid-org-lineageos-etar": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status waydroid.org.lineageos.etar",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu waydroid.org.lineageos.etar",
+        "interval": 2
+    },
+    "custom/waymin-waydroid-org-lineageos-jelly": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status waydroid.org.lineageos.jelly",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu waydroid.org.lineageos.jelly",
+        "interval": 2
+    },
+    "custom/waymin-waydroid-org-lineageos-recorder": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status waydroid.org.lineageos.recorder",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu waydroid.org.lineageos.recorder",
+        "interval": 2
+    },
+    "custom/waymin-waynergy": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status waynergy",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu waynergy",
+        "interval": 2
+    },
+    "custom/waymin-webcamoid": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status webcamoid",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu webcamoid",
+        "interval": 2
+    },
+    "custom/waymin-wheelmap-geo-handler": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wheelmap-geo-handler",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wheelmap-geo-handler",
+        "interval": 2
+    },
+    "custom/waymin-wine": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-aif": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-aif",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-aif",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-aifc": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-aifc",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-aifc",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-asf": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-asf",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-asf",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-asx": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-asx",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-asx",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-au": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-au",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-au",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-avi": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-avi",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-avi",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-cda": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-cda",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-cda",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-chm": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-chm",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-chm",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-crt": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-crt",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-crt",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-dvr-ms": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-dvr-ms",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-dvr-ms",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-hlp": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-hlp",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-hlp",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-m1v": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-m1v",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-m1v",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-m3u": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-m3u",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-m3u",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-mid": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-mid",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-mid",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-mp2": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-mp2",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-mp2",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-mp3": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-mp3",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-mp3",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-msp": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-msp",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-msp",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-reg": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-reg",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-reg",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-rmi": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-rmi",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-rmi",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-sct": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-sct",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-sct",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-vbs": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-vbs",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-vbs",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-wav": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-wav",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-wav",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-wax": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-wax",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-wax",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-wm": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-wm",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-wm",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-wma": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-wma",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-wma",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-wmd": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-wmd",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-wmd",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-wms": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-wms",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-wms",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-wmv": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-wmv",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-wmv",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-wmz": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-wmz",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-wmz",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-wpl": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-wpl",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-wpl",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-wsc": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-wsc",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-wsc",
+        "interval": 2
+    },
+    "custom/waymin-wine-extension-wvx": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-extension-wvx",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-extension-wvx",
+        "interval": 2
+    },
+    "custom/waymin-wine-protocol-com-epicgames-launcher": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-protocol-com.epicgames.launcher",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-protocol-com.epicgames.launcher",
+        "interval": 2
+    },
+    "custom/waymin-wine-protocol-eaconnect-microsoft": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-protocol-eaconnect.microsoft",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-protocol-eaconnect.microsoft",
+        "interval": 2
+    },
+    "custom/waymin-wine-protocol-ealink": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-protocol-ealink",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-protocol-ealink",
+        "interval": 2
+    },
+    "custom/waymin-wine-protocol-http": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-protocol-http",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-protocol-http",
+        "interval": 2
+    },
+    "custom/waymin-wine-protocol-https": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-protocol-https",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-protocol-https",
+        "interval": 2
+    },
+    "custom/waymin-wine-protocol-link2ea": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-protocol-link2ea",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-protocol-link2ea",
+        "interval": 2
+    },
+    "custom/waymin-wine-protocol-microsoft-edge": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-protocol-microsoft-edge",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-protocol-microsoft-edge",
+        "interval": 2
+    },
+    "custom/waymin-wine-protocol-mms": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-protocol-mms",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-protocol-mms",
+        "interval": 2
+    },
+    "custom/waymin-wine-protocol-mmst": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-protocol-mmst",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-protocol-mmst",
+        "interval": 2
+    },
+    "custom/waymin-wine-protocol-mmsu": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-protocol-mmsu",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-protocol-mmsu",
+        "interval": 2
+    },
+    "custom/waymin-wine-protocol-msbd": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-protocol-msbd",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-protocol-msbd",
+        "interval": 2
+    },
+    "custom/waymin-wine-protocol-origin": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-protocol-origin",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-protocol-origin",
+        "interval": 2
+    },
+    "custom/waymin-wine-protocol-origin2": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-protocol-origin2",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-protocol-origin2",
+        "interval": 2
+    },
+    "custom/waymin-wine-protocol-qrc": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-protocol-qrc",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-protocol-qrc",
+        "interval": 2
+    },
+    "custom/waymin-wine-protocol-uplay": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status wine-protocol-uplay",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu wine-protocol-uplay",
+        "interval": 2
+    },
+    "custom/waymin-winetricks": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status winetricks",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu winetricks",
+        "interval": 2
+    },
+    "custom/waymin-xdg-desktop-portal-gnome": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status xdg-desktop-portal-gnome",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu xdg-desktop-portal-gnome",
+        "interval": 2
+    },
+    "custom/waymin-xdg-desktop-portal-gtk": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status xdg-desktop-portal-gtk",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu xdg-desktop-portal-gtk",
+        "interval": 2
+    },
+    "custom/waymin-xfce4-about": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status xfce4-about",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu xfce4-about",
+        "interval": 2
+    },
+    "custom/waymin-xgps": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status xgps",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu xgps",
+        "interval": 2
+    },
+    "custom/waymin-xgpsspeed": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status xgpsspeed",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu xgpsspeed",
+        "interval": 2
+    },
+    "custom/waymin-xilinx-information-center1779569356787": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status xilinx information center_1779569356787",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu xilinx information center_1779569356787",
+        "interval": 2
+    },
+    "custom/waymin-xterm": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status xterm",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu xterm",
+        "interval": 2
+    },
+    "custom/waymin-zoom": {
+        "return-type": "json",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status zoom",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu zoom",
+        "interval": 2
+    },
+    // WAYMIN_DEFS_END
+}

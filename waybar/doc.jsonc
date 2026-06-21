@@ -1,0 +1,22 @@
+{
+    "name": "hyprdock",
+    "layer": "top",
+    // Removing "position": "top" stops Waybar from stretching to 100% width automatically
+    "position": "none", 
+    
+    // Pass explicit positioning offsets to float it in the top right corner
+    "margin-top": 8,
+    "margin-right": 10,
+    
+    "exclusive": false, 
+    "passthrough": false,
+
+    "modules-right": ["custom/dock-clients"],
+
+    "custom/dock-clients": {
+        "exec": "~/.config/hypr/scripts/get_dock_clients.sh",
+        "interval": 1,
+        "return-type": "json",
+        "format": "{}"
+    }
+}
