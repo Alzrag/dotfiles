@@ -7,8 +7,6 @@
     // WAYMIN_LIST_START
     "custom/waymin-refresh",
     "custom/waymin-discord",
-    "custom/waymin-heroic",
-    "custom/waymin-steam",
     // WAYMIN_LIST_END
     "custom/window-class"
   ],
@@ -86,18 +84,6 @@
         "return-type": "json",
         "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status discord",
         "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu discord",
-        "interval": 2
-    },
-    "custom/waymin-heroic": {
-        "return-type": "json",
-        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status heroic",
-        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu heroic",
-        "interval": 2
-    },
-    "custom/waymin-steam": {
-        "return-type": "json",
-        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status steam",
-        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu steam",
         "interval": 2
     },
     // WAYMIN_DEFS_END
