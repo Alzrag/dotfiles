@@ -1,0 +1,10 @@
+[Unit]
+Description=Steam WebHelper Memory Monitor
+
+[Service]
+ExecStart=/home/alzrag/steam_cleaner.sh
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=default.target

@@ -6,7 +6,7 @@
     "custom/workspace-group",
     // WAYMIN_LIST_START
     "custom/waymin-refresh",
-    "custom/waymin-discord",
+    "custom/waymin-opera-gx",
     // WAYMIN_LIST_END
     "custom/window-class"
   ],
@@ -80,10 +80,10 @@
         "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --refresh",
         "tooltip": "Refresh Taskbar Entries"
     },
-    "custom/waymin-discord": {
+    "custom/waymin-opera-gx": {
         "return-type": "json",
-        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status discord",
-        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu discord",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status opera-gx",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu opera-gx",
         "interval": 2
     },
     // WAYMIN_DEFS_END
