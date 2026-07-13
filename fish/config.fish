@@ -11,5 +11,3 @@ end
 # Pyenv setup for fish
 set -Ux PYENV_ROOT $HOME/.pyenv
 set -Ux PATH $PYENV_ROOT/bin $PATH
-status --is-interactive; and pyenv init --path | source
-status --is-interactive; and pyenv init - | source

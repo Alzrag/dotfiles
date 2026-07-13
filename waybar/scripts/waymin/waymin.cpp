@@ -236,7 +236,7 @@ int main(int argc, char* argv[]) {
         int pid = extract_key_int(active, "pid");
         if (addr.empty() || pid <= 0) return 0;
 
-        exec_cmd("hyprctl dispatch movetoworkspacesilent 100,address:" + addr);
+        exec_cmd("hyprctl dispatch 'hl.dsp.window.move({ workspace = 100, window = \"address:" + addr + "\", follow = false })'");
         exec_cmd("renice -n 19 -p " + std::to_string(pid));
         exec_cmd("ionice -c 3 -p " + std::to_string(pid));
 
@@ -262,7 +262,7 @@ int main(int argc, char* argv[]) {
         int ws_id = extract_key_int(active_ws, "id");
         if (ws_id <= 0) ws_id = 1; // safety fallback only
 
-        exec_cmd("hyprctl dispatch movetoworkspace " + std::to_string(ws_id) + ",address:" + target_addr);
+        exec_cmd("hyprctl dispatch 'hl.dsp.window.move({ workspace = " + std::to_string(ws_id) + ", window = \"address:" + target_addr + "\", follow = true })'");
         return 0;
     }
 

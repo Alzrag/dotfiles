@@ -1,0 +1,15 @@
+[Unit]
+Description=Force headphone port on Ryzen audio
+After=pipewire.service wireplumber.service pipewire-pulse.service
+Requires=pipewire.service wireplumber.service
+
+[Service]
+Type=oneshot
+ExecStartPre=/usr/bin/sleep 5
+ExecStart=/usr/bin/pactl set-card-profile alsa_card.pci-0000_11_00.6 output:analog-stereo
+ExecStart=/usr/bin/sleep 1
+ExecStart=/usr/bin/pactl set-sink-port alsa_output.pci-0000_11_00.6.analog-stereo analog-output-headphones
+ExecStart=/usr/bin/pactl set-default-sink alsa_output.pci-0000_11_00.6.analog-stereo
+
+[Install]
+WantedBy=default.target

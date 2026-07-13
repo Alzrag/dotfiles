@@ -6,7 +6,7 @@
     "custom/workspace-group",
     // WAYMIN_LIST_START
     "custom/waymin-refresh",
-    "custom/waymin-opera-gx",
+    "custom/waymin-kitty",
     // WAYMIN_LIST_END
     "custom/window-class"
   ],
@@ -35,7 +35,7 @@
   },
 
   "custom/power": {
-    "format": "⚡ {}W",
+    "format": "<span font_family='Noto Color Emoji'>⚡</span> {}W",
     "exec": "nvidia-smi --query-gpu=power.draw --format=csv,noheader,nounits 2>/dev/null || echo 'OFFLINE'",
     "interval": 5
   },
@@ -80,10 +80,10 @@
         "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --refresh",
         "tooltip": "Refresh Taskbar Entries"
     },
-    "custom/waymin-opera-gx": {
+    "custom/waymin-kitty": {
         "return-type": "json",
-        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status opera-gx",
-        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu opera-gx",
+        "exec": "/home/alzrag/.config/waybar/scripts/waymin/waymin --status kitty",
+        "on-click": "/home/alzrag/.config/waybar/scripts/waymin/waymin --menu kitty",
         "interval": 2
     },
     // WAYMIN_DEFS_END

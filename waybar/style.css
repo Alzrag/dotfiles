@@ -111,15 +111,15 @@ window#waybar {
 }
 
 /* WAYMIN_STYLES_START */
-#custom-waymin-opera-gx.blank {
+#custom-waymin-kitty.blank {
     opacity: 0;
     padding: 0;
     margin: 0;
     min-width: 0;
     min-height: 0;
 }
-#custom-waymin-opera-gx.minimized {
-    background-image: url("file:///usr/share/icons/hicolor/256x256/apps/opera-gx.png");
+#custom-waymin-kitty.minimized {
+    background-image: url("file:///usr/share/icons/hicolor/scalable/apps/kitty.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -128,3 +128,9 @@ window#waybar {
     padding: 0;
 }
     /* WAYMIN_STYLES_END */
+
+/* Actual power module (custom/power in modules-center) — power_draw above is a different, currently-unused ID */
+#custom-power {
+    color: #eaff00;
+    text-shadow: 0 0 8px #eaff00;
+}

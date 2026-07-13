@@ -19,26 +19,26 @@
 
 -- Fallback profile for any unmapped or temporary displays
 hl.monitor({
-    output   = "",
-    mode     = "preferred",
-    position = "auto",
-    scale    = 1,
+	output = "",
+	mode = "preferred",
+	position = "auto",
+	scale = 1,
 })
 
 -- Disable hardware cursor to avoid DMABUF crash
 hl.config({
-    cursor = {
-        no_hardware_cursors = true,
-    },
+	cursor = {
+		no_hardware_cursors = true,
+	},
 })
 
 ---------------------
 ---- MY PROGRAMS ----
 ---------------------
 
-local terminal    = "kitty"
-local fileManager  = "thunar"
-local menu         = "wofi --show drun --style /home/alzrag/.config/wofi/themes/neon.css"
+local terminal = "kitty"
+local fileManager = "thunar"
+local menu = "wofi --show drun --style /home/alzrag/.config/wofi/themes/neon.css"
 
 -------------------
 ---- AUTOSTART ----
@@ -48,23 +48,25 @@ local menu         = "wofi --show drun --style /home/alzrag/.config/wofi/themes/
 -- every config reload (unlike exec-once in old hyprlang, this is the Lua equivalent).
 
 hl.on("hyprland.start", function()
-    hl.exec_cmd("/usr/lib/polkit-kde-authentication-agent-1")
-    hl.exec_cmd("/usr/bin/gnome-keyring-daemon --start --components=secrets")
-    hl.exec_cmd("/usr/bin/nm-applet")
+	hl.exec_cmd("/usr/lib/polkit-kde-authentication-agent-1")
+	hl.exec_cmd("/usr/bin/gnome-keyring-daemon --start --components=secrets")
+	hl.exec_cmd("/usr/bin/nm-applet")
 
-    hl.exec_cmd("/usr/bin/gnome-keyring-daemon --start --components=secrets,pkcs11,ssh,gpg")
-    hl.exec_cmd("nm-applet --indicator")
+	hl.exec_cmd("/usr/bin/gnome-keyring-daemon --start --components=secrets,pkcs11,ssh,gpg")
+	hl.exec_cmd("nm-applet --indicator")
 
-    hl.exec_cmd("dbus-update-activation-environment --systemd --all")
-    hl.exec_cmd("mako &")
-    hl.exec_cmd("waybar &")
-    hl.exec_cmd("hyprpaper &")
-    hl.exec_cmd("hyprctl reload")
-    hl.exec_cmd("kando &")
+	hl.exec_cmd("dbus-update-activation-environment --systemd --all")
+	hl.exec_cmd("swww-daemon &")
+	hl.exec_cmd("swww img ~/Downloads/wallpaper.jpg")
+	hl.exec_cmd("mako &")
+	hl.exec_cmd("waybar &")
+	hl.exec_cmd("hyprpaper &")
+	hl.exec_cmd("hyprctl reload")
+	hl.exec_cmd("kando &")
 
-    -- hl.exec_cmd(terminal)
-    -- hl.exec_cmd("nm-applet &")
-    -- hl.exec_cmd("waybar & hyprpaper & firefox")
+	-- hl.exec_cmd(terminal)
+	-- hl.exec_cmd("nm-applet &")
+	-- hl.exec_cmd("waybar & hyprpaper & firefox")
 end)
 
 -------------------------------
@@ -99,79 +101,79 @@ hl.env("ELECTRON_OZONE_PLATFORM_HINT", "auto")
 -- Refer to https://wiki.hypr.land/Configuring/Basics/Variables/
 
 hl.config({
-    general = {
-        gaps_in  = 5,
-        gaps_out = 20,
+	general = {
+		gaps_in = 5,
+		gaps_out = 20,
 
-        border_size = 3,
+		border_size = 3,
 
-        col = {
-            -- single-color active border (rgba, no gradient in your original)
-            active_border   = "rgba(00ff00aa)",
-            -- gradient inactive border, 45deg
-            inactive_border = { colors = { "rgba(000000aa)", "rgba(00ab06aa)" }, angle = 45 },
-        },
+		col = {
+			-- single-color active border (rgba, no gradient in your original)
+			active_border = "rgba(00ff00aa)",
+			-- gradient inactive border, 45deg
+			inactive_border = { colors = { "rgba(000000aa)", "rgba(00ab06aa)" }, angle = 45 },
+		},
 
-        -- Set to true to enable resizing windows by clicking and dragging on borders/gaps
-        resize_on_border = false,
+		-- Set to true to enable resizing windows by clicking and dragging on borders/gaps
+		resize_on_border = false,
 
-        -- See https://wiki.hypr.land/Configuring/Advanced-and-Cool/Tearing/ before enabling
-        allow_tearing = false,
+		-- See https://wiki.hypr.land/Configuring/Advanced-and-Cool/Tearing/ before enabling
+		allow_tearing = false,
 
-        layout = "dwindle",
-    },
+		layout = "dwindle",
+	},
 
-    decoration = {
-        rounding       = 10,
-        rounding_power = 2,
+	decoration = {
+		rounding = 10,
+		rounding_power = 2,
 
-        active_opacity   = 1.0,
-        inactive_opacity = 1.0,
+		active_opacity = 1.0,
+		inactive_opacity = 1.0,
 
-        shadow = {
-            enabled      = true,
-            range        = 4,
-            render_power = 3,
-            -- rgba(00000088) -> 0xAARRGGBB
-            color        = 0x88000000,
-        },
+		shadow = {
+			enabled = true,
+			range = 4,
+			render_power = 3,
+			-- rgba(00000088) -> 0xAARRGGBB
+			color = 0x88000000,
+		},
 
-        blur = {
-            enabled  = true,
-            size     = 3,
-            passes   = 1,
-            vibrancy = 0.1696,
-        },
-    },
+		blur = {
+			enabled = true,
+			size = 3,
+			passes = 1,
+			vibrancy = 0.1696,
+		},
+	},
 
-    animations = {
-        enabled = true,
-    },
+	animations = {
+		enabled = true,
+	},
 })
 
 -- Bezier curves, see https://wiki.hypr.land/Configuring/Advanced-and-Cool/Animations/
-hl.curve("easeOutQuint",   { type = "bezier", points = { {0.23, 1},    {0.32, 1}    } })
-hl.curve("easeInOutCubic", { type = "bezier", points = { {0.65, 0.05}, {0.36, 1}    } })
-hl.curve("linear",         { type = "bezier", points = { {0, 0},       {1, 1}       } })
-hl.curve("almostLinear",   { type = "bezier", points = { {0.5, 0.5},   {0.75, 1}    } })
-hl.curve("quick",          { type = "bezier", points = { {0.15, 0},    {0.1, 1}     } })
+hl.curve("easeOutQuint", { type = "bezier", points = { { 0.23, 1 }, { 0.32, 1 } } })
+hl.curve("easeInOutCubic", { type = "bezier", points = { { 0.65, 0.05 }, { 0.36, 1 } } })
+hl.curve("linear", { type = "bezier", points = { { 0, 0 }, { 1, 1 } } })
+hl.curve("almostLinear", { type = "bezier", points = { { 0.5, 0.5 }, { 0.75, 1 } } })
+hl.curve("quick", { type = "bezier", points = { { 0.15, 0 }, { 0.1, 1 } } })
 
-hl.animation({ leaf = "global",         enabled = true, speed = 10,   bezier = "default" })
-hl.animation({ leaf = "border",         enabled = true, speed = 5.39, bezier = "easeOutQuint" })
-hl.animation({ leaf = "windows",        enabled = true, speed = 4.79, bezier = "easeOutQuint" })
-hl.animation({ leaf = "windowsIn",      enabled = true, speed = 4.1,  bezier = "easeOutQuint", style = "popin 87%" })
-hl.animation({ leaf = "windowsOut",     enabled = true, speed = 1.49, bezier = "linear",       style = "popin 87%" })
-hl.animation({ leaf = "fadeIn",         enabled = true, speed = 1.73, bezier = "almostLinear" })
-hl.animation({ leaf = "fadeOut",        enabled = true, speed = 1.46, bezier = "almostLinear" })
-hl.animation({ leaf = "fade",           enabled = true, speed = 3.03, bezier = "quick" })
-hl.animation({ leaf = "layers",         enabled = true, speed = 3.81, bezier = "easeOutQuint" })
-hl.animation({ leaf = "layersIn",       enabled = true, speed = 4,    bezier = "easeOutQuint", style = "fade" })
-hl.animation({ leaf = "layersOut",      enabled = true, speed = 1.5,  bezier = "linear",       style = "fade" })
-hl.animation({ leaf = "fadeLayersIn",   enabled = true, speed = 1.79, bezier = "almostLinear" })
-hl.animation({ leaf = "fadeLayersOut",  enabled = true, speed = 1.39, bezier = "almostLinear" })
-hl.animation({ leaf = "workspaces",     enabled = true, speed = 1.94, bezier = "almostLinear", style = "fade" })
-hl.animation({ leaf = "workspacesIn",   enabled = true, speed = 1.21, bezier = "almostLinear", style = "fade" })
-hl.animation({ leaf = "workspacesOut",  enabled = true, speed = 1.94, bezier = "almostLinear", style = "fade" })
+hl.animation({ leaf = "global", enabled = true, speed = 10, bezier = "default" })
+hl.animation({ leaf = "border", enabled = true, speed = 5.39, bezier = "easeOutQuint" })
+hl.animation({ leaf = "windows", enabled = true, speed = 4.79, bezier = "easeOutQuint" })
+hl.animation({ leaf = "windowsIn", enabled = true, speed = 4.1, bezier = "easeOutQuint", style = "popin 87%" })
+hl.animation({ leaf = "windowsOut", enabled = true, speed = 1.49, bezier = "linear", style = "popin 87%" })
+hl.animation({ leaf = "fadeIn", enabled = true, speed = 1.73, bezier = "almostLinear" })
+hl.animation({ leaf = "fadeOut", enabled = true, speed = 1.46, bezier = "almostLinear" })
+hl.animation({ leaf = "fade", enabled = true, speed = 3.03, bezier = "quick" })
+hl.animation({ leaf = "layers", enabled = true, speed = 3.81, bezier = "easeOutQuint" })
+hl.animation({ leaf = "layersIn", enabled = true, speed = 4, bezier = "easeOutQuint", style = "fade" })
+hl.animation({ leaf = "layersOut", enabled = true, speed = 1.5, bezier = "linear", style = "fade" })
+hl.animation({ leaf = "fadeLayersIn", enabled = true, speed = 1.79, bezier = "almostLinear" })
+hl.animation({ leaf = "fadeLayersOut", enabled = true, speed = 1.39, bezier = "almostLinear" })
+hl.animation({ leaf = "workspaces", enabled = true, speed = 1.94, bezier = "almostLinear", style = "fade" })
+hl.animation({ leaf = "workspacesIn", enabled = true, speed = 1.21, bezier = "almostLinear", style = "fade" })
+hl.animation({ leaf = "workspacesOut", enabled = true, speed = 1.94, bezier = "almostLinear", style = "fade" })
 
 -- Ref https://wiki.hypr.land/Configuring/Basics/Workspace-Rules/
 -- "Smart gaps" / "No gaps when only" — uncomment if you want it.
@@ -192,16 +194,16 @@ hl.animation({ leaf = "workspacesOut",  enabled = true, speed = 1.94, bezier = "
 
 -- See https://wiki.hypr.land/Configuring/Layouts/Dwindle-Layout/
 hl.config({
-    dwindle = {
-        preserve_split = true, -- You probably want this
-    },
+	dwindle = {
+		preserve_split = true, -- You probably want this
+	},
 })
 
 -- See https://wiki.hypr.land/Configuring/Layouts/Master-Layout/
 hl.config({
-    master = {
-        new_status = "master",
-    },
+	master = {
+		new_status = "master",
+	},
 })
 
 ----------------
@@ -209,10 +211,10 @@ hl.config({
 ----------------
 
 hl.config({
-    misc = {
-        force_default_wallpaper = -1,   -- Set to 0 or 1 to disable the anime mascot wallpapers
-        disable_hyprland_logo   = false, -- If true, disables the random hyprland logo / anime girl background
-    },
+	misc = {
+		force_default_wallpaper = -1, -- Set to 0 or 1 to disable the anime mascot wallpapers
+		disable_hyprland_logo = false, -- If true, disables the random hyprland logo / anime girl background
+	},
 })
 
 ---------------
@@ -220,21 +222,21 @@ hl.config({
 ---------------
 
 hl.config({
-    input = {
-        kb_layout  = "us",
-        kb_variant = "",
-        kb_model   = "",
-        kb_options = "",
-        kb_rules   = "",
+	input = {
+		kb_layout = "us",
+		kb_variant = "",
+		kb_model = "",
+		kb_options = "",
+		kb_rules = "",
 
-        follow_mouse = 1,
+		follow_mouse = 1,
 
-        sensitivity = 0, -- -1.0 - 1.0, 0 means no modification
+		sensitivity = 0, -- -1.0 - 1.0, 0 means no modification
 
-        touchpad = {
-            natural_scroll = false,
-        },
-    },
+		touchpad = {
+			natural_scroll = false,
+		},
+	},
 })
 
 -- gestures
@@ -243,8 +245,8 @@ hl.config({
 -- Example per-device config
 -- See https://wiki.hypr.land/Configuring/Advanced-and-Cool/Devices/
 hl.device({
-    name = "epic-mouse-v1",
-    sensitivity = -0.5,
+	name = "epic-mouse-v1",
+	sensitivity = -0.5,
 })
 
 ---------------------
@@ -265,8 +267,8 @@ hl.bind(mainMod .. " + M", hl.dsp.exit())
 hl.bind(mainMod .. " + E", hl.dsp.exec_cmd(fileManager))
 hl.bind(mainMod .. " + V", hl.dsp.window.float({ action = "toggle" }))
 hl.bind(mainMod .. " + R", hl.dsp.exec_cmd(menu))
-hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())            -- dwindle
-hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit"))      -- dwindle
+hl.bind(mainMod .. " + P", hl.dsp.window.pseudo()) -- dwindle
+hl.bind(mainMod .. " + J", hl.dsp.layout("togglesplit")) -- dwindle
 
 -- Kando global menu bind.
 -- NOTE: `hl.dsp.global` mirrors hyprlang's `global` dispatcher, but this corner of the
@@ -277,15 +279,15 @@ hl.bind(mainMod .. " + Space", hl.dsp.global("menu.kando.Kando:hyprland-menu"))
 hl.bind("SUPER + minus", hl.dsp.exec_cmd("/home/alzrag/.config/waybar/scripts/waymin/waymin --minimize"))
 
 -- Lock screen with SUPER + L
-hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("env WAYLAND_DISPLAY=$WAYLAND_DISPLAY XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR hyprlock"))
+hl.bind(mainMod .. " + L", hl.dsp.exec_cmd("hyprlock"))
 
 hl.bind(mainMod .. " + F", hl.dsp.window.fullscreen({ mode = 0 }))
 
 -- Move focus with mainMod + arrow keys
-hl.bind(mainMod .. " + left",  hl.dsp.focus({ direction = "left" }))
+hl.bind(mainMod .. " + left", hl.dsp.focus({ direction = "left" }))
 hl.bind(mainMod .. " + right", hl.dsp.focus({ direction = "right" }))
-hl.bind(mainMod .. " + up",    hl.dsp.focus({ direction = "up" }))
-hl.bind(mainMod .. " + down",  hl.dsp.focus({ direction = "down" }))
+hl.bind(mainMod .. " + up", hl.dsp.focus({ direction = "up" }))
+hl.bind(mainMod .. " + down", hl.dsp.focus({ direction = "down" }))
 
 hl.bind("SUPER + 1", hl.dsp.exec_cmd("~/.config/hypr/scripts/switch-workspaces.sh 1"))
 hl.bind("SUPER + 2", hl.dsp.exec_cmd("~/.config/hypr/scripts/switch-workspaces.sh 2"))
@@ -293,7 +295,7 @@ hl.bind("SUPER + 3", hl.dsp.exec_cmd("~/.config/hypr/scripts/switch-workspaces.s
 
 hl.bind("SUPER + SHIFT + P", hl.dsp.exec_cmd("~/.config/hypr/scripts/screenshot.sh"))
 
-hl.bind("SUPER + SHIFT + left",  hl.dsp.exec_cmd("~/.config/hypr/scripts/move-window-left.sh"))
+hl.bind("SUPER + SHIFT + left", hl.dsp.exec_cmd("~/.config/hypr/scripts/move-window-left.sh"))
 hl.bind("SUPER + SHIFT + right", hl.dsp.exec_cmd("~/.config/hypr/scripts/move-window-right.sh"))
 
 -- Move active window to a workspace with mainMod + ALT/SHIFT + [num]
@@ -315,26 +317,34 @@ hl.bind(mainMod .. " + SHIFT + S", hl.dsp.window.move({ workspace = "special:mag
 
 -- Scroll through existing workspaces with mainMod + scroll
 hl.bind(mainMod .. " + mouse_down", hl.dsp.focus({ workspace = "e+1" }))
-hl.bind(mainMod .. " + mouse_up",   hl.dsp.focus({ workspace = "e-1" }))
+hl.bind(mainMod .. " + mouse_up", hl.dsp.focus({ workspace = "e-1" }))
 
 -- Move/resize windows with mainMod + LMB/RMB and dragging
-hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(),   { mouse = true })
+hl.bind(mainMod .. " + mouse:272", hl.dsp.window.drag(), { mouse = true })
 hl.bind(mainMod .. " + mouse:273", hl.dsp.window.resize(), { mouse = true })
 
 -- Laptop multimedia keys for volume and LCD brightness
 hl.bind("XF86AudioRaiseVolume", hl.dsp.exec_cmd("/home/alzrag/.config/hypr/scripts/volume-up.sh"))
 hl.bind("XF86AudioLowerVolume", hl.dsp.exec_cmd("/home/alzrag/.config/hypr/scripts/volume-down.sh"))
 
-hl.bind("XF86AudioMute",         hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"),   { locked = true, repeating = true })
-hl.bind("XF86AudioMicMute",      hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"), { locked = true, repeating = true })
-hl.bind("XF86MonBrightnessUp",   hl.dsp.exec_cmd("brightnessctl -e4 -n2 set 5%+"),                { locked = true, repeating = true })
-hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd("brightnessctl -e4 -n2 set 5%-"),                { locked = true, repeating = true })
+hl.bind(
+	"XF86AudioMute",
+	hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"),
+	{ locked = true, repeating = true }
+)
+hl.bind(
+	"XF86AudioMicMute",
+	hl.dsp.exec_cmd("wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle"),
+	{ locked = true, repeating = true }
+)
+hl.bind("XF86MonBrightnessUp", hl.dsp.exec_cmd("brightnessctl -e4 -n2 set 5%+"), { locked = true, repeating = true })
+hl.bind("XF86MonBrightnessDown", hl.dsp.exec_cmd("brightnessctl -e4 -n2 set 5%-"), { locked = true, repeating = true })
 
 -- Requires playerctl
-hl.bind("XF86AudioNext",  hl.dsp.exec_cmd("playerctl next"),        { locked = true })
-hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl play-pause"),  { locked = true })
-hl.bind("XF86AudioPlay",  hl.dsp.exec_cmd("playerctl play-pause"),  { locked = true })
-hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),    { locked = true })
+hl.bind("XF86AudioNext", hl.dsp.exec_cmd("playerctl next"), { locked = true })
+hl.bind("XF86AudioPause", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
+hl.bind("XF86AudioPlay", hl.dsp.exec_cmd("playerctl play-pause"), { locked = true })
+hl.bind("XF86AudioPrev", hl.dsp.exec_cmd("playerctl previous"), { locked = true })
 
 --------------------------------
 ---- WINDOWS AND WORKSPACES ----
@@ -344,31 +354,31 @@ hl.bind("XF86AudioPrev",  hl.dsp.exec_cmd("playerctl previous"),    { locked = t
 
 -- Ignore maximize requests from all apps.
 hl.window_rule({
-    name  = "suppress-maximize-events",
-    match = { class = ".*" },
-    suppress_event = "maximize",
+	name = "suppress-maximize-events",
+	match = { class = ".*" },
+	suppress_event = "maximize",
 })
 
 -- Fix some dragging issues with XWayland
 hl.window_rule({
-    name = "fix-xwayland-drags",
-    match = {
-        class      = "^$",
-        title      = "^$",
-        xwayland   = true,
-        float      = true,
-        fullscreen = false,
-        pin        = false,
-    },
-    no_focus = true,
+	name = "fix-xwayland-drags",
+	match = {
+		class = "^$",
+		title = "^$",
+		xwayland = true,
+		float = true,
+		fullscreen = false,
+		pin = false,
+	},
+	no_focus = true,
 })
 
 hl.window_rule({
-    name = "linux-gremlin",
-    match = { title = "ilgwg_desktop_gremlins.py" },
-    no_blur     = true,
-    no_shadow   = true,
-    border_size = 0,
+	name = "linux-gremlin",
+	match = { title = "ilgwg_desktop_gremlins.py" },
+	no_blur = true,
+	no_shadow = true,
+	border_size = 0,
 })
 
 -----------------
@@ -376,42 +386,42 @@ hl.window_rule({
 -----------------
 
 hl.window_rule({
-    name  = "tile-minecraft",
-    match = { class = "Minecraft.*" },
-    tile  = true,
+	name = "tile-minecraft",
+	match = { class = "Minecraft.*" },
+	tile = true,
 })
 
 hl.window_rule({
-    name  = "tile-steam",
-    match = { class = "steam_app_.*" },
-    tile  = true,
+	name = "tile-steam",
+	match = { class = "steam_app_.*" },
+	tile = true,
 })
 
 hl.window_rule({
-    name  = "tile-wine",
-    match = { class = "Wine" },
-    tile  = true,
+	name = "tile-wine",
+	match = { class = "Wine" },
+	tile = true,
 })
 
 hl.window_rule({
-    name  = "tile-winexe",
-    match = { class = ".*\\.exe" },
-    tile  = true,
+	name = "tile-winexe",
+	match = { class = ".*\\.exe" },
+	tile = true,
 })
 
 -- Kando full-screen overlay menu
 hl.window_rule({
-    name  = "kando",
-    match = { class = "menu.kando.Kando", title = "Kando Menu" },
-    no_blur     = true,
-    opaque      = true,
-    move        = "0 0",
-    rounding    = 0,
-    size        = "100% 100%",
-    border_size = 0,
-    no_anim     = true,
-    float       = true,
-    pin         = true,
+	name = "kando",
+	match = { class = "menu.kando.Kando", title = "Kando Menu" },
+	no_blur = true,
+	opaque = true,
+	move = "0 0",
+	rounding = 0,
+	size = "100% 100%",
+	border_size = 0,
+	no_anim = true,
+	float = true,
+	pin = true,
 })
 
 -----------------------------------
